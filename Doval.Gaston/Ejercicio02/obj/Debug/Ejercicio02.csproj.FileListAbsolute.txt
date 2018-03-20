@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\Ejercicios\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.exe.config
+C:\Users\alumno\Desktop\Ejercicios\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.exe
+C:\Users\alumno\Desktop\Ejercicios\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.pdb
+C:\Users\alumno\Desktop\Ejercicios\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Ejercicios\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.exe
+C:\Users\alumno\Desktop\Ejercicios\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.pdb
