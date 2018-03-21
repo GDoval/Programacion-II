@@ -10,7 +10,7 @@ namespace Clase_1_Laboratorio
     {
         static void Main(string[] args)
         {
-            EntidadSello.Sello.mensaje = "Esto tampoco es un mensaje";
+            EntidadSello.Sello.mensaje = "asd";
             EntidadSello.Sello.Imprimir();
             Console.ReadLine();
             EntidadSello.Sello.Borrar();
