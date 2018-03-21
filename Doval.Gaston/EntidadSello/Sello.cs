@@ -24,7 +24,7 @@ namespace EntidadSello // Un nuevo NameSpace para guardar clases (una libreria, 
             Console.Clear();
         }
         public static ConsoleColor color; //ConsoleColor es un enumerado, una constante con n valores
-        public static string ArmarFormatoMensaje()
+        private static string ArmarFormatoMensaje()
         {
             string respuesta = "";
             int cant = mensaje.Length;
