@@ -12,6 +12,7 @@ namespace Clase_1_Laboratorio
         {
             EntidadSello.Sello.mensaje = "Esto tampoco es un mensaje";
             EntidadSello.Sello.Imprimir();
+            Console.ReadLine();
             EntidadSello.Sello.Borrar();
             Console.ReadLine();
         }
