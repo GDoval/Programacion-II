@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clase_1_Laboratorio
+namespace Clase_1_Laboratorio // Esta clase está alojada en el NameSpace Clase_1_Laboratorio
 {
     class Sello
     {
