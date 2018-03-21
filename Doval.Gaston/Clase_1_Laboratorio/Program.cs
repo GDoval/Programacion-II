@@ -10,9 +10,9 @@ namespace Clase_1_Laboratorio
     {
         static void Main(string[] args)
         {
-            Sello.mensaje = "Esto no es un mensaje";
-            Sello.Imprimir();
-            //Sello.Borrar();
+            EntidadSello.Sello.mensaje = "Esto tampoco es un mensaje";
+            EntidadSello.Sello.Imprimir();
+            EntidadSello.Sello.Borrar();
             Console.ReadLine();
         }
     }

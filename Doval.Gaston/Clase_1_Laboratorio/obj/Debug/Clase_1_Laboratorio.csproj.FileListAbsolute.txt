@@ -4,3 +4,5 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Deb
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\EntidadSello.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\EntidadSello.pdb
