@@ -1,0 +1,10 @@
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\obj\Debug\netcoreapp2.0\Ejercicio06.csproj.CoreCompileInputs.cache
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\obj\Debug\netcoreapp2.0\Ejercicio06.AssemblyInfoInputs.cache
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\obj\Debug\netcoreapp2.0\Ejercicio06.AssemblyInfo.cs
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\bin\Debug\netcoreapp2.0\Ejercicio06.deps.json
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\bin\Debug\netcoreapp2.0\Ejercicio06.runtimeconfig.json
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\bin\Debug\netcoreapp2.0\Ejercicio06.runtimeconfig.dev.json
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\bin\Debug\netcoreapp2.0\Ejercicio06.dll
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\bin\Debug\netcoreapp2.0\Ejercicio06.pdb
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\obj\Debug\netcoreapp2.0\Ejercicio06.dll
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\obj\Debug\netcoreapp2.0\Ejercicio06.pdb
