@@ -27,9 +27,7 @@ namespace Ejercicio05
                         acum2 = acum2 + j;
                 }
                 if (acum == acum2)
-                     Console.WriteLine("Tu centro es: {0}", ancla);
-               /* if (true)
-                    Console.WriteLine("{0}  {1}  {2}", ancla, acum, acum2);*/
+                    Console.WriteLine("Tu centro es: {0}", ancla);
                 acum = 0;
                 acum2 = 0;
                 ancla++;
