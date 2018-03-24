@@ -7,3 +7,10 @@ C:\Users\alumno\Desktop\Ejercicios\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio0
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.exe.config
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.exe.config
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.exe
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.csprojResolveAssemblyReference.cache
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.csproj.CoreCompileInputs.cache
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.exe
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.pdb
