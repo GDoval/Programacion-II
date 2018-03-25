@@ -19,3 +19,4 @@ C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio04\obj\
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio04\obj\Debug\netcoreapp2.0\Ejercicio04.AssemblyInfo.cs
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio04\obj\Debug\netcoreapp2.0\Ejercicio04.dll
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio04\obj\Debug\netcoreapp2.0\Ejercicio04.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio04\obj\Debug\netcoreapp2.0\Ejercicio04.csprojResolveAssemblyReference.cache
