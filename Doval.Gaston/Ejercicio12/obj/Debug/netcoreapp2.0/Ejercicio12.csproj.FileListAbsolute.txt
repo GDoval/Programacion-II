@@ -8,3 +8,4 @@ C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio12\bin\
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio12\bin\Debug\netcoreapp2.0\Ejercicio12.pdb
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio12\obj\Debug\netcoreapp2.0\Ejercicio12.dll
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio12\obj\Debug\netcoreapp2.0\Ejercicio12.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio12\obj\Debug\netcoreapp2.0\Ejercicio12.csprojResolveAssemblyReference.cache

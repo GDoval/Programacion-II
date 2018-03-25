@@ -14,7 +14,6 @@ C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio05\bin\
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio05\bin\Debug\netcoreapp2.0\Ejercicio05.runtimeconfig.dev.json
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio05\bin\Debug\netcoreapp2.0\Ejercicio05.dll
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio05\bin\Debug\netcoreapp2.0\Ejercicio05.pdb
-C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio05\obj\Debug\netcoreapp2.0\Ejercicio05.csprojResolveAssemblyReference.cache
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio05\obj\Debug\netcoreapp2.0\Ejercicio05.csproj.CoreCompileInputs.cache
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio05\obj\Debug\netcoreapp2.0\Ejercicio05.AssemblyInfoInputs.cache
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio05\obj\Debug\netcoreapp2.0\Ejercicio05.AssemblyInfo.cs
