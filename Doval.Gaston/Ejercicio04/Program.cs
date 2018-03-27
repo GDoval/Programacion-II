@@ -18,7 +18,7 @@ namespace Ejercicio04
                 suma = 0;
                 for (int j = 1; j < i; j++)
                 {
-                    if (i % j == 0  &&  i != j)
+                    if (i % j == 0 && i != j)
                     {
                         suma = suma + j;
                     }

@@ -4,3 +4,9 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio18\bin\Debug\Ejerc
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio18\obj\Debug\Ejercicio18.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio18\obj\Debug\Ejercicio18.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio18\obj\Debug\Ejercicio18.pdb
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio18\obj\Debug\Ejercicio18.csprojResolveAssemblyReference.cache
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio18\obj\Debug\Ejercicio18.exe
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio18\bin\Debug\Ejercicio18.exe.config
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio18\bin\Debug\Ejercicio18.exe
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio18\bin\Debug\Ejercicio18.pdb
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio18\obj\Debug\Ejercicio18.pdb

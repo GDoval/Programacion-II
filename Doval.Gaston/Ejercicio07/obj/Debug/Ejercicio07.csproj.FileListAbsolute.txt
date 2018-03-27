@@ -1,0 +1,5 @@
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio07\bin\Debug\Ejercicio07.exe.config
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio07\bin\Debug\Ejercicio07.exe
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio07\bin\Debug\Ejercicio07.pdb
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio07\obj\Debug\Ejercicio07.exe
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio07\obj\Debug\Ejercicio07.pdb

@@ -6,7 +6,7 @@ namespace Ejercicio05
     {
         static void Main(string[] args)
         {
-            Console.Title = "Ejercicio 06";
+            Console.Title = "Ejercicio 05";
             int num;
             int acum = 0;
             int acum2 = 0;
@@ -16,7 +16,7 @@ namespace Ejercicio05
             num = int.Parse(Console.ReadLine());
             while (cont < num)
             {
-                for (int i = 1; i < ancla; i ++ )
+                for (int i = 1; i < ancla; i++)
                 {
 
                     acum = acum + i;

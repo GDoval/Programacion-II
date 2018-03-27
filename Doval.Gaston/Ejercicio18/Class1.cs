@@ -47,10 +47,10 @@ namespace Ejercicio18
         }
         public float GetArea()
         {
-            float area;
+            float area = 7;
             int vert1 = this.vertice1.GetY();
             int vert2 = this.vertice2.GetY();
-            float base = 
+            float asdasd = 1;
             return area;
         }
 
