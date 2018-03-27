@@ -48,6 +48,18 @@ namespace Geometria
         public float GetArea()
         {
             float area;
+            area = this.Area();
+            return area;
+        }
+        public float GetPerimetro()
+        {
+            float perimetro = this.Perimetro();
+            return perimetro;
+        }
+
+        public float Area()
+        {
+            float area;
             int bas_1 = this.vertice1.GetX();
             int bas_2 = this.vertice4.GetX();
             float basee = bas_2 - bas_1;
@@ -56,11 +68,12 @@ namespace Geometria
             bas_2 = this.vertice2.GetY();
             float altura = bas_2 - bas_1;
             //Math.Abs(altura);
-            area = basee * altura ;
+            area = basee * altura;
             this.area = area;
             return area;
         }
-        public float GetPerimetro()
+
+        public float Perimetro()
         {
             float perimetro;
             int bas_1 = this.vertice1.GetX();
@@ -71,7 +84,7 @@ namespace Geometria
             bas_2 = this.vertice2.GetY();
             float altura = bas_2 - bas_1;
             //Math.Abs(altura);
-            perimetro = (basee + altura)*2;
+            perimetro = (basee + altura) * 2;
             this.perimetro = perimetro;
             return area;
         }
