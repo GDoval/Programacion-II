@@ -3,15 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Geometria;
 
-namespace Ejercicio18 //Rehacer en otro proyecto que tenga dos namespace distintos
+namespace PruebaGeometria 
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.Title = "Ejercicio 18";
-
+            Punto vertice1 = new Punto(-2, -5);
+            Punto vertice3 = new Punto(-8, -10);
+            Rectangulo rec = new Rectangulo(vertice1, vertice3);
+            double arrrea = rec.GetArea();
+            Console.Write("{0}", arrrea);
+            Console.ReadLine();
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio18
+namespace Geometria
 {
     class Punto
     {
@@ -47,10 +47,32 @@ namespace Ejercicio18
         }
         public float GetArea()
         {
-            float area = 7;
-            int vert1 = this.vertice1.GetY();
-            int vert2 = this.vertice2.GetY();
-            float asdasd = 1;
+            float area;
+            int bas_1 = this.vertice1.GetX();
+            int bas_2 = this.vertice4.GetX();
+            float basee = bas_2 - bas_1;
+            //Math.Abs(basee);
+            bas_1 = this.vertice1.GetY();
+            bas_2 = this.vertice2.GetY();
+            float altura = bas_2 - bas_1;
+            //Math.Abs(altura);
+            area = basee * altura ;
+            this.area = area;
+            return area;
+        }
+        public float GetPerimetro()
+        {
+            float perimetro;
+            int bas_1 = this.vertice1.GetX();
+            int bas_2 = this.vertice4.GetX();
+            float basee = bas_2 - bas_1;
+            //Math.Abs(basee);
+            bas_1 = this.vertice1.GetY();
+            bas_2 = this.vertice2.GetY();
+            float altura = bas_2 - bas_1;
+            //Math.Abs(altura);
+            perimetro = (basee + altura)*2;
+            this.perimetro = perimetro;
             return area;
         }
 
