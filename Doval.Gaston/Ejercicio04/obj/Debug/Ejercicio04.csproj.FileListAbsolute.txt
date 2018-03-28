@@ -4,3 +4,9 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio04\bin\Debug\Ej
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio04\obj\Debug\Ejercicio04.csprojResolveAssemblyReference.cache
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio04\obj\Debug\Ejercicio04.exe
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio04\obj\Debug\Ejercicio04.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio04\bin\Debug\Ejercicio04.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio04\bin\Debug\Ejercicio04.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio04\bin\Debug\Ejercicio04.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio04\obj\Debug\Ejercicio04.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio04\obj\Debug\Ejercicio04.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio04\obj\Debug\Ejercicio04.pdb

@@ -3,3 +3,8 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\bin\Debug\Ej
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\bin\Debug\Ejercicio06.pdb
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\obj\Debug\Ejercicio06.exe
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\obj\Debug\Ejercicio06.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\bin\Debug\Ejercicio06.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\bin\Debug\Ejercicio06.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\bin\Debug\Ejercicio06.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\obj\Debug\Ejercicio06.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio06\obj\Debug\Ejercicio06.pdb
