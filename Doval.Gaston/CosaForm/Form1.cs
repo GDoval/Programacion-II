@@ -20,9 +20,9 @@ namespace CosaForm
 
         private void Aceptar_Click(object sender, EventArgs e)
         {
-            int numero =  int.Parse (this.textBox1.Text);
-            string cadena = this.textBox2.Text;
-            DateTime fecha = DateTime.Parse (this.textBox3.Text);
+            int numero =  int.Parse (this.txtEntero.Text);
+            string cadena = this.txtCadena.Text;
+            DateTime fecha = DateTime.Parse (this.textFecha.Text);
             Cosa objeto = new Cosa(numero, cadena, fecha);
             MessageBox.Show(objeto.Mostrar());
         }
