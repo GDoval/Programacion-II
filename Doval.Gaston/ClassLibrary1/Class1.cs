@@ -51,10 +51,10 @@ namespace Libreria
             retorno += this.entero + "\n" + this.cadena + "\n" + this.fecha;
             return retorno;
         }
-        public Cosa()
+        public Cosa() : this(10, "Sin valor", DateTime.Now) // esto solo funciona con constructores no estaticos, no con metodos
         {
             this.entero = 10;
-            this.cadena = "Sin valor";
+            this.cadena = "";
             this.fecha = DateTime.Now;
         }
 
@@ -64,7 +64,18 @@ namespace Libreria
             this.cadena = cadena;
             this.fecha = fecha;
         }
+        public Cosa(int num) : this() 
+        {
+            this.entero = num;
+        }
 
-
+        public Cosa(int num, string cadena): this(num)
+        {
+            this.cadena = cadena;
+        }
+        //Cuando se hace la llamada :this(params) despues de cada constructor, se ejecuta primero el constructor
+        //que se llama con el this y _despues_ se ejecuta el constructor que se llamo la primera vez.
+        //So, si en el constructor del this se incializa un valor, ese mismo valor se puede pisar despues cuando
+        // el compilador vuelve al constructor original. 
     }
 }
