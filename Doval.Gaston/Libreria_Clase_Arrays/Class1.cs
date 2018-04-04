@@ -23,7 +23,7 @@ namespace Libreria_Clase_Arrays
             return this.color + "," + this.marca + "," + this.cantidad + "\n";
         }
 
-        public string Mostrar(Tempera tempera)
+        public static string Mostrar(Tempera tempera)
         {
             string resp = tempera.Mostrar();
             return resp;

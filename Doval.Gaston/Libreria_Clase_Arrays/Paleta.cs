@@ -29,10 +29,11 @@ namespace Libreria_Clase_Arrays
 
         private string Mostrar()
         {
-            string asd  = "";
+            string asd  = "La cantidad de colores es de: " + this.CantidadMaximaColores + "\n";
             for (int i = 0; i < this.colores.GetLength(0) ; i++)
             {
-                asd += this.colores[i].Mostrar(colores[i]);
+                if (this.colores.GetValue(i) != null)
+                    asd += Tempera.Mostrar(colores[i]);
             }
             return asd;
         }
