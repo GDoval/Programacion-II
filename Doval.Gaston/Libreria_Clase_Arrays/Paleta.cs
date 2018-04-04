@@ -42,5 +42,27 @@ namespace Libreria_Clase_Arrays
         {
             return pale.Mostrar();
         }
+
+        public static bool operator ==(Paleta pale, Tempera temp)
+        {
+            bool resp = false;
+            for (int i = 0; i < pale.CantidadMaximaColores; i++)
+            {
+                if (pale.colores.GetValue(i) != null)
+                {
+                    if (pale.colores[i] == temp)
+                    {
+                        resp = true;
+                        break;
+                    }
+                }
+            }
+            return resp;
+        }
+
+        public static bool operator !=(Paleta pale, Tempera temp)
+        {
+            return !(pale == temp);
+        }
     }
 }
