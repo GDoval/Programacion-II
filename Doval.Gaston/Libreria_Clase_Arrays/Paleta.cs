@@ -71,8 +71,9 @@ namespace Libreria_Clase_Arrays
             if (pale == temp)
             {
                 int indice = pale.colores[pale.ObtenerIndice(temp)];
-
+                pale.colores[indice] += temp;
             }
+            return pale;
         }
 
         private int ObtenerIndice(Tempera temp)
