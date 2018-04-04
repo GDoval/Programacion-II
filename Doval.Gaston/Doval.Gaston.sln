@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosaForm", "CosaForm\CosaForm.csproj", "{10E5AE45-9256-45DA-AAAA-5EB1CB2CB496}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria_Clase_Arrays", "Libreria_Clase_Arrays\Libreria_Clase_Arrays.csproj", "{D9725D6E-EC2B-4E60-AD1E-05A5487CFD51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{10E5AE45-9256-45DA-AAAA-5EB1CB2CB496}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10E5AE45-9256-45DA-AAAA-5EB1CB2CB496}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10E5AE45-9256-45DA-AAAA-5EB1CB2CB496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9725D6E-EC2B-4E60-AD1E-05A5487CFD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9725D6E-EC2B-4E60-AD1E-05A5487CFD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9725D6E-EC2B-4E60-AD1E-05A5487CFD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9725D6E-EC2B-4E60-AD1E-05A5487CFD51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
