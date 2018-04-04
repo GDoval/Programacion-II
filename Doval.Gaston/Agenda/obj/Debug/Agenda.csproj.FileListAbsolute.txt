@@ -1,0 +1,6 @@
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Agenda\obj\Debug\Agenda.csprojResolveAssemblyReference.cache
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Agenda\bin\Debug\Agenda.exe.config
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Agenda\bin\Debug\Agenda.exe
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Agenda\bin\Debug\Agenda.pdb
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Agenda\obj\Debug\Agenda.exe
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Agenda\obj\Debug\Agenda.pdb

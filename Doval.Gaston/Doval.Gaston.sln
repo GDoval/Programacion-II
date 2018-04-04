@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria_Clase_Arrays", "Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esto no es una prueba de conversores", "Esto no es una prueba de conversores\Esto no es una prueba de conversores.csproj", "{6DDC34FB-46AD-45F7-BED4-0528F0448480}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda", "Agenda\Agenda.csproj", "{CC4FF281-C8F0-4F7A-A1E7-5FE2E5E8FB17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{6DDC34FB-46AD-45F7-BED4-0528F0448480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DDC34FB-46AD-45F7-BED4-0528F0448480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DDC34FB-46AD-45F7-BED4-0528F0448480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4FF281-C8F0-4F7A-A1E7-5FE2E5E8FB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4FF281-C8F0-4F7A-A1E7-5FE2E5E8FB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4FF281-C8F0-4F7A-A1E7-5FE2E5E8FB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4FF281-C8F0-4F7A-A1E7-5FE2E5E8FB17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
