@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio12", "Ejercicio12\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_2_Lab", "Clase_2_Lab\Clase_2_Lab.csproj", "{959B1046-1CF8-44E8-8E10-6C89FFF3B6F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{7055EB10-60CA-496B-8BE6-08F01CB7E512}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sobrecarga_Constructores", "ClassLibrary1\Sobrecarga_Constructores.csproj", "{7055EB10-60CA-496B-8BE6-08F01CB7E512}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosaForm", "CosaForm\CosaForm.csproj", "{10E5AE45-9256-45DA-AAAA-5EB1CB2CB496}"
 EndProject
