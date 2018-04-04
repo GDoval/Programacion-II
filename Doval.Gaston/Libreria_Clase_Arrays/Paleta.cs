@@ -64,5 +64,37 @@ namespace Libreria_Clase_Arrays
         {
             return !(pale == temp);
         }
+
+
+        public static Paleta operator +(Paleta pale, Tempera temp)
+        {
+            if (pale == temp)
+            {
+                int indice = pale.colores[pale.ObtenerIndice(temp)];
+
+            }
+        }
+
+        private int ObtenerIndice(Tempera temp)
+        {
+            int indice = -1;
+            for (int i = 0; i < this.colores.GetLength(0); i++)
+            {
+                if (this.colores[i] == temp)
+                    return indice = i;
+            }
+            return indice;
+        }
+
+        private int ObtenerIndice()
+        {
+            int indice = -1;
+            for (int i = 0; i < this.colores.GetLength(0); i++)
+            {
+                if (this.colores.GetValue(i) == null)
+                    return indice = i;
+            }
+            return indice;
+        }
     }
 }
