@@ -17,3 +17,9 @@ C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Ejercicio02\obj\
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.pdb
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.csprojResolveAssemblyReference.cache
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.exe.config
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.exe
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\bin\Debug\Ejercicio02.pdb
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.csprojResolveAssemblyReference.cache
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.exe
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio02\obj\Debug\Ejercicio02.pdb

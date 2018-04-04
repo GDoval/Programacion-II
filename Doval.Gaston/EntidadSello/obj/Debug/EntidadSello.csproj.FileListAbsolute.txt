@@ -9,3 +9,8 @@ C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\EntidadSello\obj
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.csproj.CoreCompileInputs.cache
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.dll
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.pdb
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\EntidadSello\bin\Debug\EntidadSello.dll
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\EntidadSello\bin\Debug\EntidadSello.pdb
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.csprojResolveAssemblyReference.cache
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.dll
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.pdb
