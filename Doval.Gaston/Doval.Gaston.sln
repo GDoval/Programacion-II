@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esto no es una prueba de co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda", "Agenda\Agenda.csproj", "{CC4FF281-C8F0-4F7A-A1E7-5FE2E5E8FB17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica_TP1", "Practica_Parcial\Practica_TP1.csproj", "{3728730D-0486-4804-AB34-BF91A6EC3765}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{CC4FF281-C8F0-4F7A-A1E7-5FE2E5E8FB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4FF281-C8F0-4F7A-A1E7-5FE2E5E8FB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4FF281-C8F0-4F7A-A1E7-5FE2E5E8FB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3728730D-0486-4804-AB34-BF91A6EC3765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3728730D-0486-4804-AB34-BF91A6EC3765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3728730D-0486-4804-AB34-BF91A6EC3765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3728730D-0486-4804-AB34-BF91A6EC3765}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
