@@ -18,14 +18,21 @@ namespace Equipo_Jugador
             InitializeComponent();
         }
 
+        private Jugador jugador;
+
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             long dni = long.Parse(this.txtDNI.Text);
             string nombre = this.txtNombre.Text;
             int goles = int.Parse(this.txtGoles.Text);
             int partidos = int.Parse(this.txtJugados.Text);
-            Jugador jug = new Jugador(nombre, dni, goles, partidos);
-            MessageBox.Show(jug.MostrarDatos());
+            this.jugador = new Jugador(nombre, dni, goles, partidos);
+            MessageBox.Show(this.jugador.MostrarDatos());
+        }
+
+        public Jugador GetJugador()
+        {
+            return this.jugador;
         }
     }
 }
