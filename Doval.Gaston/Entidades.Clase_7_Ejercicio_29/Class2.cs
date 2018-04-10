@@ -37,7 +37,6 @@ namespace Entidades.Clase_7_Ejercicio_29
                     flag = 1;
                     break;
                 }
-                    
             }
             if (flag == 0)
             {
@@ -49,5 +48,12 @@ namespace Entidades.Clase_7_Ejercicio_29
             }
             return resp;
         }
+
+        public List<Jugador> GetJugadores()
+        {
+            return this.jugadores;
+        }
+
+
     }
 }

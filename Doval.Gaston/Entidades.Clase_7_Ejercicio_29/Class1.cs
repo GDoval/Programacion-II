@@ -21,8 +21,14 @@ namespace Entidades.Clase_7_Ejercicio_29
             return promedio;
         }
 
-        private Jugador() : this("Sin Nombre", 1, 0,0)
-        { }
+        private Jugador() 
+        {
+            this.nombre = "Sin nombre";
+            this.partidosJugados = 0;
+            this.promedioGoles = 0;
+            this.totalGoles = 0;
+            this.dni = 0;
+        }
 
         public Jugador(string nombre, long dni) : this ()
         {
@@ -30,7 +36,7 @@ namespace Entidades.Clase_7_Ejercicio_29
             this.dni = dni;
         }
 
-        public Jugador(string nombre, long dni, int totalGoles, int totalPartidos) : this(nombre, dni)
+        public Jugador(string nombre, long dni, int totalGoles, int totalPartidos) : this(nombre,dni)
         {
             this.totalGoles = totalGoles;
             this.partidosJugados = totalPartidos;
