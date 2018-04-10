@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades.Clase_7_Ejercicio_29
 {
-    class Jugador
+    public class Jugador
     {
         private long dni;
         private string nombre;

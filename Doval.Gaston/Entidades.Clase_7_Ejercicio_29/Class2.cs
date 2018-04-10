@@ -14,7 +14,7 @@ namespace Entidades.Clase_7_Ejercicio_29
 
         private Equipo()
         {
-            jugadores = new List<Jugador>();
+            this.jugadores = new List<Jugador>();
             this.cantidadDeJugadores = 5;
         }
 
@@ -24,5 +24,30 @@ namespace Entidades.Clase_7_Ejercicio_29
             this.nombre = nombre;
         }
 
+
+        public static bool operator +(Equipo e, Jugador j)
+        {
+            bool resp = false, validar;
+            int flag = 0;
+            foreach (Jugador jug in e.jugadores)
+            {
+                validar = jug == j;
+                if (validar)
+                {
+                    flag = 1;
+                    break;
+                }
+                    
+            }
+            if (flag == 0)
+            {
+                if (e.jugadores.Count < e.cantidadDeJugadores)
+                {
+                    e.jugadores.Add(j);
+                    resp = true;
+                }
+            }
+            return resp;
+        }
     }
 }
