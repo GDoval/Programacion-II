@@ -7,3 +7,16 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Deb
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_TP1.csproj.GenerateResource.Cache
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.exe
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.exe.manifest
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.application
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_TP1.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.numero1.resources
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.Properties.Resources.resources
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_TP1.csproj.GenerateResource.Cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.exe.manifest
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.application
