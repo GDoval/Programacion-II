@@ -33,6 +33,7 @@ namespace Equipo_Jugador
 
             this.btnMas.Visible = true;
             this.listUno.Visible = true;
+            this.btnMenos.Visible = true;
         }
         /// <summary>
         /// Muestra los elementos en la coleccion dentro de la clase Equipo a traves de un ListBox
@@ -70,7 +71,15 @@ namespace Equipo_Jugador
 
         private void listUno_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void btnMenos_Click(object sender, EventArgs e)
+        {
+            int index = this.listUno.SelectedIndex;
+            List<Jugador> lista = this.equipo.GetJugadores();
+            if (index > -1)
+                MessageBox.Show(lista[index].MostrarDatos());
         }
 
        
