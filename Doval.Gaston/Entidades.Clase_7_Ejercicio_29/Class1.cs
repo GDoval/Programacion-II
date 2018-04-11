@@ -45,17 +45,14 @@ namespace Entidades.Clase_7_Ejercicio_29
 
 
 
-        public string Nombre 
-        {
-            get { return this.nombre; }
-        }
 
 
-        //Propiedades para acceder a los atributos por fuera de la clase
+        //Propiedades para acceder a los atributos
         public long Dni { get {return this.dni;} }
-        public int PartidosJugados { get {return this.partidosJugados;}}
-        public float PromedioGoles { get{return this.promedioGoles;}}
-        public int TotalGoles { get{return this.totalGoles;}}
+        public int PartidosJugados { get { return this.partidosJugados; } set { partidosJugados = value; } }
+        public float PromedioGoles { get { return this.promedioGoles; } set { PromedioGoles = value; } }
+        public int TotalGoles { get { return this.totalGoles; } set { TotalGoles = value; } }
+        public string Nombre { get { return this.nombre; } set { Nombre = value; } }
 
         
 

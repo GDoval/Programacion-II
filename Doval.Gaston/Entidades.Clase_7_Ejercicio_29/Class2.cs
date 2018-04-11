@@ -77,6 +77,10 @@ namespace Entidades.Clase_7_Ejercicio_29
             return this.jugadores;
         }
 
+        public void SetJugadors(List<Jugador> list)
+        {
+            this.jugadores = list;
+        }
 
     }
 }

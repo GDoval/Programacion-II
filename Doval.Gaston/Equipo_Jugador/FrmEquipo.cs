@@ -54,8 +54,8 @@ namespace Equipo_Jugador
             miFormulario.ShowDialog(); //abre el nuevo formulario y no deja hace otra cosa hasta que no se cierre
             if (miFormulario.DialogResult == System.Windows.Forms.DialogResult.OK)
             {
-                jug = miFormulario.GetJugador();
-                bool validar = this.equipo + jug;
+                this.jug = miFormulario.GetJugador();
+                bool validar = this.equipo + this.jug; // se ingresa al jugador dentro de la lista en la clase equipo
                 if (validar)
                 {
                     MessageBox.Show("Jugador ingresado");
@@ -80,7 +80,7 @@ namespace Equipo_Jugador
             List<Jugador> lista = this.equipo.GetJugadores();
             if (index > -1)
             {
-                DialogResult asd = MessageBox.Show(lista[index].MostrarDatos(), "Dese borrar a este cristiano? \n", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                DialogResult asd = MessageBox.Show(lista[index].MostrarDatos(), "Desea borrar a este cristiano? \n", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
                 if (asd == System.Windows.Forms.DialogResult.OK)
                 {
                     bool validar = this.equipo - lista[index];
@@ -97,11 +97,16 @@ namespace Equipo_Jugador
             List<Jugador> lista = this.equipo.GetJugadores();
             if (index > -1)
             {
-                DialogResult asd = MessageBox.Show(lista[index].MostrarDatos(), "Dese modificar a este cristiano? \n", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                DialogResult asd = MessageBox.Show(lista[index].MostrarDatos(), "Desea modificar a este cristiano? \n", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
                 if (asd == System.Windows.Forms.DialogResult.OK)
                 {
                     FrmJugador formulario = new FrmJugador(lista[index]);
                     formulario.ShowDialog();
+                    if (formulario.DialogResult == System.Windows.Forms.DialogResult.OK)
+                    {
+                        
+                        this.TeMuestro();
+                    }
                 }
             }
         }

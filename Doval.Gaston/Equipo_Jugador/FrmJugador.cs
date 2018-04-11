@@ -18,18 +18,28 @@ namespace Equipo_Jugador
             InitializeComponent(); // instancia los elementos (botones, etc) que se ponga en el formulario
         }
 
+        private Jugador jugador;
 
+
+        /// <summary>
+        /// Constructor que recibe un jugador ya cargado y guarda la informacion en los TextBox del formulario FrmJugador
+        /// </summary>
+        /// <param name="jug"></param>
         public FrmJugador(Jugador jug): this()
         {
             this.jugador = jug;
+
+            //Se llaman a las propiedades que traen los valores desde el objeto que se pasa como parametro
+
             this.txtNombre.Text = jug.Nombre;
             this.txtDNI.Text = Convert.ToString(jug.Dni);
             this.txtGoles.Text = Convert.ToString(jug.TotalGoles);
             this.txtJugados.Text = Convert.ToString(jug.PartidosJugados);
+
+
         }
 
-        private Jugador jugador;
-
+        
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             long dni = long.Parse(this.txtDNI.Text);
