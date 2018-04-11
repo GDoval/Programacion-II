@@ -41,7 +41,7 @@ namespace Equipo_Jugador
         private void TeMuestro()
         {
             listUno.Items.Clear();
-            foreach(Jugador jug in this.equipo.GetJugadores())
+            foreach (Jugador jug in this.equipo.GetJugadores())
             {
                 this.listUno.Items.Add(jug.MostrarDatos());
             }
@@ -66,7 +66,7 @@ namespace Equipo_Jugador
                     MessageBox.Show("No  se pudo ingresar al jugador");
                 }
             }
-            
+
         }
 
         private void listUno_SelectedIndexChanged(object sender, EventArgs e)
@@ -88,9 +88,22 @@ namespace Equipo_Jugador
                         this.TeMuestro();
                 }
             }
-           
+
         }
 
-       
+        private void txtM_Click(object sender, EventArgs e)
+        {
+            int index = this.listUno.SelectedIndex;
+            List<Jugador> lista = this.equipo.GetJugadores();
+            if (index > -1)
+            {
+                DialogResult asd = MessageBox.Show(lista[index].MostrarDatos(), "Dese modificar a este cristiano? \n", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                if (asd == System.Windows.Forms.DialogResult.OK)
+                {
+                    FrmJugador formulario = new FrmJugador(lista[index]);
+                    formulario.ShowDialog();
+                }
+            }
+        }
     }
 }

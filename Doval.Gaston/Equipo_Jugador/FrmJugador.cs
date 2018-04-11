@@ -15,7 +15,17 @@ namespace Equipo_Jugador
     {
         public FrmJugador()
         {
-            InitializeComponent();
+            InitializeComponent(); // instancia los elementos (botones, etc) que se ponga en el formulario
+        }
+
+
+        public FrmJugador(Jugador jug): this()
+        {
+            this.jugador = jug;
+            this.txtNombre.Text = jug.Nombre;
+            this.txtDNI.Text = Convert.ToString(jug.Dni);
+            this.txtGoles.Text = Convert.ToString(jug.TotalGoles);
+            this.txtJugados.Text = Convert.ToString(jug.PartidosJugados);
         }
 
         private Jugador jugador;

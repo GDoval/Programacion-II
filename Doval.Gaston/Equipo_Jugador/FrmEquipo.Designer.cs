@@ -37,6 +37,7 @@
             this.btnMas = new System.Windows.Forms.Button();
             this.listUno = new System.Windows.Forms.ListBox();
             this.btnMenos = new System.Windows.Forms.Button();
+            this.txtM = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAceptar
@@ -113,7 +114,7 @@
             // 
             // btnMenos
             // 
-            this.btnMenos.Location = new System.Drawing.Point(249, 362);
+            this.btnMenos.Location = new System.Drawing.Point(312, 362);
             this.btnMenos.Name = "btnMenos";
             this.btnMenos.Size = new System.Drawing.Size(75, 33);
             this.btnMenos.TabIndex = 8;
@@ -122,11 +123,22 @@
             this.btnMenos.Visible = false;
             this.btnMenos.Click += new System.EventHandler(this.btnMenos_Click);
             // 
+            // txtM
+            // 
+            this.txtM.Location = new System.Drawing.Point(209, 402);
+            this.txtM.Name = "txtM";
+            this.txtM.Size = new System.Drawing.Size(80, 32);
+            this.txtM.TabIndex = 9;
+            this.txtM.Text = "M";
+            this.txtM.UseVisualStyleBackColor = true;
+            this.txtM.Click += new System.EventHandler(this.txtM_Click);
+            // 
             // FrmEquipo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 446);
+            this.Controls.Add(this.txtM);
             this.Controls.Add(this.btnMenos);
             this.Controls.Add(this.listUno);
             this.Controls.Add(this.btnMas);
@@ -154,5 +166,6 @@
         private System.Windows.Forms.Button btnMas;
         private System.Windows.Forms.ListBox listUno;
         private System.Windows.Forms.Button btnMenos;
+        private System.Windows.Forms.Button txtM;
     }
 }
