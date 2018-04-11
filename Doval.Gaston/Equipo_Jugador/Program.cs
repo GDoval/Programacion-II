@@ -18,7 +18,6 @@ namespace Equipo_Jugador
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FrmEquipo());
-            Application.Run(new FrmJugador());
 
         }
     }

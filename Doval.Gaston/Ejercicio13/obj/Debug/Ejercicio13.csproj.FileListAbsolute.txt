@@ -4,3 +4,9 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio13\bin\Debug\Ej
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio13\bin\Debug\Ejercicio13.pdb
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio13\obj\Debug\Ejercicio13.exe
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio13\obj\Debug\Ejercicio13.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio13\bin\Debug\Ejercicio13.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio13\bin\Debug\Ejercicio13.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio13\bin\Debug\Ejercicio13.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio13\obj\Debug\Ejercicio13.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio13\obj\Debug\Ejercicio13.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio13\obj\Debug\Ejercicio13.pdb

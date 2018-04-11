@@ -27,7 +27,7 @@ namespace Equipo_Jugador
             int goles = int.Parse(this.txtGoles.Text);
             int partidos = int.Parse(this.txtJugados.Text);
             this.jugador = new Jugador(nombre, dni, goles, partidos);
-            MessageBox.Show(this.jugador.MostrarDatos());
+            this.DialogResult = System.Windows.Forms.DialogResult.OK;
         }
 
         public Jugador GetJugador()

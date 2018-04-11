@@ -34,8 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtCant = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.btnMas = new System.Windows.Forms.Button();
+            this.listUno = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnAceptar
@@ -89,30 +89,33 @@
             this.txtCant.Size = new System.Drawing.Size(152, 20);
             this.txtCant.TabIndex = 5;
             // 
-            // button1
+            // btnMas
             // 
-            this.button1.Location = new System.Drawing.Point(136, 362);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(67, 33);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnMas.Location = new System.Drawing.Point(136, 362);
+            this.btnMas.Name = "btnMas";
+            this.btnMas.Size = new System.Drawing.Size(67, 33);
+            this.btnMas.TabIndex = 6;
+            this.btnMas.Text = "+";
+            this.btnMas.UseVisualStyleBackColor = true;
+            this.btnMas.Visible = false;
+            this.btnMas.Click += new System.EventHandler(this.btnMas_Click);
             // 
-            // listBox1
+            // listUno
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(46, 251);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(275, 95);
-            this.listBox1.TabIndex = 7;
+            this.listUno.FormattingEnabled = true;
+            this.listUno.Location = new System.Drawing.Point(46, 251);
+            this.listUno.Name = "listUno";
+            this.listUno.Size = new System.Drawing.Size(275, 95);
+            this.listUno.TabIndex = 7;
+            this.listUno.Visible = false;
             // 
             // FrmEquipo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(416, 443);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.listUno);
+            this.Controls.Add(this.btnMas);
             this.Controls.Add(this.txtCant);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label2);
@@ -134,7 +137,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtCant;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button btnMas;
+        private System.Windows.Forms.ListBox listUno;
     }
 }

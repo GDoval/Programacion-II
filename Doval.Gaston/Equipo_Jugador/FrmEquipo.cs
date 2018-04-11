@@ -19,6 +19,7 @@ namespace Equipo_Jugador
         }
 
         private Equipo equipo;
+        private Jugador jug;
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
@@ -29,6 +30,32 @@ namespace Equipo_Jugador
             this.txtCant.Enabled = false;
             this.btnAceptar.Visible = false;
             this.btnCancelar.Visible = false;
+
+            this.btnMas.Visible = true;
+            this.listUno.Visible = true;
         }
+
+
+        private void btnMas_Click(object sender, EventArgs e)
+        {
+            FrmJugador miFormulario = new FrmJugador();
+            miFormulario.ShowDialog(); //abre el nuevo formulario y no deja hace otra cosa hasta que no se cierre
+            if (miFormulario.DialogResult == System.Windows.Forms.DialogResult.OK)
+            {
+                jug = miFormulario.GetJugador();
+                bool validar = this.equipo + jug;
+                if (validar)
+                {
+                    MessageBox.Show("Jugador ingresado");
+                }
+                else
+                {
+                    MessageBox.Show("No  se pudo ingresar al jugador");
+                }
+            }
+            
+        }
+
+       
     }
 }

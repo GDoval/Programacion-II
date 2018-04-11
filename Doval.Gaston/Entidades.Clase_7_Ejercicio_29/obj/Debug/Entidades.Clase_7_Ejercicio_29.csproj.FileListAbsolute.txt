@@ -8,3 +8,4 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Entidades.Clase_7_Ejerci
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Entidades.Clase_7_Ejercicio_29\bin\Debug\Entidades.Clase_7_Ejercicio_29.pdb
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Entidades.Clase_7_Ejercicio_29\obj\Debug\Entidades.Clase_7_Ejercicio_29.exe
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Entidades.Clase_7_Ejercicio_29\obj\Debug\Entidades.Clase_7_Ejercicio_29.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades.Clase_7_Ejercicio_29\obj\Debug\Entidades.Clase_7_Ejercicio_29.csprojResolveAssemblyReference.cache
