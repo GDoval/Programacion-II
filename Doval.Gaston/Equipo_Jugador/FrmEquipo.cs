@@ -35,6 +35,14 @@ namespace Equipo_Jugador
             this.listUno.Visible = true;
         }
 
+        private void TeMuestro()
+        {
+            foreach(Jugador jug in this.equipo.GetJugadores())
+            {
+                this.listUno.Items.Add(jug.MostrarDatos());
+            }
+        }
+
 
         private void btnMas_Click(object sender, EventArgs e)
         {
@@ -47,12 +55,18 @@ namespace Equipo_Jugador
                 if (validar)
                 {
                     MessageBox.Show("Jugador ingresado");
+                    this.TeMuestro();
                 }
                 else
                 {
                     MessageBox.Show("No  se pudo ingresar al jugador");
                 }
             }
+            
+        }
+
+        private void listUno_SelectedIndexChanged(object sender, EventArgs e)
+        {
             
         }
 

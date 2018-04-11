@@ -46,7 +46,7 @@ namespace Entidades.Clase_7_Ejercicio_29
         public string MostrarDatos()
         {
             string retorno = "";
-            retorno += "Nombre: " + this.nombre + "\n" + "DNI: " + this.dni + "\n" + "Partidos Jugados: " + this.partidosJugados + "\n" + "Goles totales: " + this.totalGoles + "\n" + "Promedio de goles: " + this.promedioGoles + "\n";
+            retorno += "Nombre: " + this.nombre  + " DNI: " + this.dni  + " Partidos Jugados: " + this.partidosJugados + " Goles totales: " + this.totalGoles +  " Promedio de goles: " + this.promedioGoles;
             return retorno;
         }
 

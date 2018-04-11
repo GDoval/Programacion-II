@@ -105,15 +105,16 @@
             this.listUno.FormattingEnabled = true;
             this.listUno.Location = new System.Drawing.Point(46, 251);
             this.listUno.Name = "listUno";
-            this.listUno.Size = new System.Drawing.Size(275, 95);
+            this.listUno.Size = new System.Drawing.Size(512, 95);
             this.listUno.TabIndex = 7;
             this.listUno.Visible = false;
+            this.listUno.SelectedIndexChanged += new System.EventHandler(this.listUno_SelectedIndexChanged);
             // 
             // FrmEquipo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(416, 443);
+            this.ClientSize = new System.Drawing.Size(570, 446);
             this.Controls.Add(this.listUno);
             this.Controls.Add(this.btnMas);
             this.Controls.Add(this.txtCant);
