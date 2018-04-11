@@ -79,7 +79,16 @@ namespace Equipo_Jugador
             int index = this.listUno.SelectedIndex;
             List<Jugador> lista = this.equipo.GetJugadores();
             if (index > -1)
-                MessageBox.Show(lista[index].MostrarDatos());
+            {
+                DialogResult asd = MessageBox.Show(lista[index].MostrarDatos(), "Dese borrar a este cristiano? \n", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                if (asd == System.Windows.Forms.DialogResult.OK)
+                {
+                    bool validar = this.equipo - lista[index];
+                    if (validar)
+                        this.TeMuestro();
+                }
+            }
+           
         }
 
        
