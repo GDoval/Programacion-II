@@ -34,9 +34,12 @@ namespace Equipo_Jugador
             this.btnMas.Visible = true;
             this.listUno.Visible = true;
         }
-
+        /// <summary>
+        /// Muestra los elementos en la coleccion dentro de la clase Equipo a traves de un ListBox
+        /// </summary>
         private void TeMuestro()
         {
+            listUno.Items.Clear();
             foreach(Jugador jug in this.equipo.GetJugadores())
             {
                 this.listUno.Items.Add(jug.MostrarDatos());

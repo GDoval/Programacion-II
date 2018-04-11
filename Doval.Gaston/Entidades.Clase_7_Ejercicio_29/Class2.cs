@@ -49,6 +49,29 @@ namespace Entidades.Clase_7_Ejercicio_29
             return resp;
         }
 
+
+        public static bool operator -(Equipo e, Jugador j)
+        {
+            bool resp = false, validar;
+            foreach (Jugador jug in e.jugadores)
+            {
+                validar = jug == j;
+                if (validar)
+                {
+                    e.jugadores.Remove(jug);
+                    resp = true;
+                    break;
+                }
+            }
+            return resp;
+        }
+
+
+
+
+
+
+
         public List<Jugador> GetJugadores()
         {
             return this.jugadores;
