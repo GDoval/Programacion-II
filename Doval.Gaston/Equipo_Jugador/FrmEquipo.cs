@@ -104,7 +104,7 @@ namespace Equipo_Jugador
                     formulario.ShowDialog();
                     if (formulario.DialogResult == System.Windows.Forms.DialogResult.OK)
                     {
-                        
+                        lista[index] = formulario.GetJugador();
                         this.TeMuestro();
                     }
                 }
