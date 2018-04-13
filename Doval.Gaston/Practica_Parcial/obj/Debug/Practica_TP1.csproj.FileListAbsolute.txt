@@ -20,3 +20,7 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_TP1.csproj.GenerateResource.Cache
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.exe.manifest
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.application
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.exe.manifest
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.application
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.exe.manifest
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.application

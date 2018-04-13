@@ -1,0 +1,6 @@
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\bin\Debug\Probando_Referencias.exe.config
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\bin\Debug\Probando_Referencias.exe
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\bin\Debug\Probando_Referencias.pdb
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.csprojResolveAssemblyReference.cache
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.exe
+C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.pdb
