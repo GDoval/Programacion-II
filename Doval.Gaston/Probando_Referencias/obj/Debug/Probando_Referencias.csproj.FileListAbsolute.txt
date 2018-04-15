@@ -4,3 +4,9 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\bin
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.csprojResolveAssemblyReference.cache
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.exe
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Probando_Referencias\bin\Debug\Probando_Referencias.exe.config
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Probando_Referencias\bin\Debug\Probando_Referencias.exe
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Probando_Referencias\bin\Debug\Probando_Referencias.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.csprojResolveAssemblyReference.cache
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.exe
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.pdb

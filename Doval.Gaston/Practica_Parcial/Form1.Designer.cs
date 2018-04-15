@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.num1 = new System.Windows.Forms.TextBox();
-            this.num2 = new System.Windows.Forms.TextBox();
+            this.txtNumero1 = new System.Windows.Forms.TextBox();
+            this.txtNumero2 = new System.Windows.Forms.TextBox();
             this.cmbOperador = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnOperar = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -43,21 +43,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.operadoresBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
-            // num1
+            // txtNumero1
             // 
-            this.num1.Location = new System.Drawing.Point(57, 73);
-            this.num1.Multiline = true;
-            this.num1.Name = "num1";
-            this.num1.Size = new System.Drawing.Size(189, 68);
-            this.num1.TabIndex = 0;
+            this.txtNumero1.Location = new System.Drawing.Point(57, 73);
+            this.txtNumero1.Multiline = true;
+            this.txtNumero1.Name = "txtNumero1";
+            this.txtNumero1.Size = new System.Drawing.Size(189, 68);
+            this.txtNumero1.TabIndex = 0;
             // 
-            // num2
+            // txtNumero2
             // 
-            this.num2.Location = new System.Drawing.Point(488, 78);
-            this.num2.Multiline = true;
-            this.num2.Name = "num2";
-            this.num2.Size = new System.Drawing.Size(197, 67);
-            this.num2.TabIndex = 1;
+            this.txtNumero2.Location = new System.Drawing.Point(488, 78);
+            this.txtNumero2.Multiline = true;
+            this.txtNumero2.Name = "txtNumero2";
+            this.txtNumero2.Size = new System.Drawing.Size(197, 67);
+            this.txtNumero2.TabIndex = 1;
             // 
             // cmbOperador
             // 
@@ -74,15 +74,15 @@
             this.cmbOperador.TabIndex = 2;
             this.cmbOperador.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // button2
+            // btnOperar
             // 
-            this.button2.Location = new System.Drawing.Point(57, 174);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(126, 61);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Operar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnOperar.Location = new System.Drawing.Point(57, 174);
+            this.btnOperar.Name = "btnOperar";
+            this.btnOperar.Size = new System.Drawing.Size(126, 61);
+            this.btnOperar.TabIndex = 3;
+            this.btnOperar.Text = "Operar";
+            this.btnOperar.UseVisualStyleBackColor = true;
+            this.btnOperar.Click += new System.EventHandler(this.btnOperar_Click);
             // 
             // button3
             // 
@@ -92,6 +92,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "Limpiar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -120,14 +121,6 @@
             this.lblResultado.TabIndex = 7;
             this.lblResultado.Text = "label1";
             // 
-            // operadoresBindingSource
-            // 
-            this.operadoresBindingSource.DataSource = typeof(Practica_Parcial.Operadores);
-            // 
-            // operadoresBindingSource1
-            // 
-            this.operadoresBindingSource1.DataSource = typeof(Practica_Parcial.Operadores);
-            // 
             // numero1
             // 
             this.ClientSize = new System.Drawing.Size(761, 274);
@@ -135,10 +128,10 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnOperar);
             this.Controls.Add(this.cmbOperador);
-            this.Controls.Add(this.num2);
-            this.Controls.Add(this.num1);
+            this.Controls.Add(this.txtNumero2);
+            this.Controls.Add(this.txtNumero1);
             this.Name = "numero1";
             this.Load += new System.EventHandler(this.numero1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.operadoresBindingSource)).EndInit();
@@ -153,10 +146,10 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox num1;
-        private System.Windows.Forms.TextBox num2;
+        private System.Windows.Forms.TextBox txtNumero1;
+        private System.Windows.Forms.TextBox txtNumero2;
         private System.Windows.Forms.ComboBox cmbOperador;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnOperar;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;

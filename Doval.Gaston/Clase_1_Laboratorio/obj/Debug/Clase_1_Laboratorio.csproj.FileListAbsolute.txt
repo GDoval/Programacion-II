@@ -12,8 +12,6 @@ C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_1_Laborato
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\EntidadSello.dll
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\EntidadSello.pdb
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.csprojResolveAssemblyReference.cache
-C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.csproj.CoreCompileInputs.cache
-C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.csproj.CopyComplete
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.exe
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.pdb
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\Clase_1_Laboratorio.exe.config

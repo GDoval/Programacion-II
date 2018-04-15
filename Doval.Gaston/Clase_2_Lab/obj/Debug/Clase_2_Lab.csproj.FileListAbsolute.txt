@@ -14,3 +14,11 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_2_Lab\bin\Debug\Cl
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_2_Lab\obj\Debug\Clase_2_Lab.csprojResolveAssemblyReference.cache
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_2_Lab\obj\Debug\Clase_2_Lab.exe
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_2_Lab\obj\Debug\Clase_2_Lab.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_2_Lab\bin\Debug\Clase_2_Lab.exe.config
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_2_Lab\bin\Debug\Clase_2_Lab.exe
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_2_Lab\bin\Debug\Clase_2_Lab.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_2_Lab\bin\Debug\ClassLibrary1.dll
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_2_Lab\bin\Debug\ClassLibrary1.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_2_Lab\obj\Debug\Clase_2_Lab.csprojResolveAssemblyReference.cache
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_2_Lab\obj\Debug\Clase_2_Lab.exe
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Clase_2_Lab\obj\Debug\Clase_2_Lab.pdb

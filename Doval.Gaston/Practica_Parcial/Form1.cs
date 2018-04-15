@@ -27,10 +27,28 @@ namespace Practica_Parcial
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnOperar_Click(object sender, EventArgs e)
         {
-            string coso = this.cmbOperador.Items[this.cmbOperador.SelectedIndex].ToString();
-            MessageBox.Show(coso);
+            string num1 = this.txtNumero1.Text;
+            string num2 = this.txtNumero2.Text;
+            string operador = this.cmbOperador.Text;
+            double resp = numero1.Operar(num1, num2, operador);
+            string muestra = Convert.ToString(resp);
+            MessageBox.Show(muestra);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private static double Operar(string num1, string num2, string operador)
+        {
+            Calculadora calcu = new Calculadora();
+            Numero numero1 = new Numero(num1);
+            Numero numero2 = new Numero(num2);
+            double resp = calcu.Operar(numero1, numero2, operador);
+            return resp;
         }
 
     }
