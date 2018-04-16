@@ -72,7 +72,6 @@
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.Size = new System.Drawing.Size(121, 63);
             this.cmbOperador.TabIndex = 2;
-            this.cmbOperador.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // btnOperar
             // 
@@ -102,6 +101,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -115,7 +115,7 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(214, 14);
+            this.lblResultado.Location = new System.Drawing.Point(270, 38);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(35, 13);
             this.lblResultado.TabIndex = 7;

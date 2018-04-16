@@ -139,6 +139,19 @@ namespace Practica_Parcial
             return resp;
         }
 
+        public static string DecimalBinario(double num)
+        {
+            string resp = "";
+            while (num > 1)
+            {
+                double resto = num % 2;
+                resp = Convert.ToString(resto) + resp;
+                num /= 2;
+            }
+            resp = Convert.ToString(num) + resp;
+            return resp;
+        }
+
     }
 
 }

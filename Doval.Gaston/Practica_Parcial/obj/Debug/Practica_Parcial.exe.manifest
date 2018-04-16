@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Practica_Parcial.exe" size="11264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Practica_Parcial.exe" size="11776">
       <assemblyIdentity name="Practica_Parcial" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tWPHn+Kch6xpQLMWSphuvhsRT9SRNZHDCY+wZcb5Q7s=</dsig:DigestValue>
+        <dsig:DigestValue>fPvjDzb/CM+ECEoCIMVQFBVfjRN3E9kIPebCK8JHbKM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
