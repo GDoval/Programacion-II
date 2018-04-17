@@ -57,6 +57,8 @@ namespace Clase_Herencia
         {
             return !(ve1 == ve2);
         }
+
+
     }
 
 
