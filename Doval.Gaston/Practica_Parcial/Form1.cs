@@ -59,5 +59,10 @@ namespace Practica_Parcial
             this.lblResultado.Text = buff;
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
