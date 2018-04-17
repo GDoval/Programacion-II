@@ -277,5 +277,18 @@ namespace Clase_Herencia
              int resp = String.Compare(ve1.Patente, ve2.Patente);
              return resp;
         }
+        /// <summary>
+        /// Devuelve 0 sin son iguales, 1 si el primero es mas grande, -1 si es mas chico
+        /// </summary>
+        /// <param name="ve1"></param>
+        /// <param name="ve2"></param>
+        /// <returns></returns>
+        public int OrdenarVehiculosPorMarca(Vehiculo ve1, Vehiculo ve2)
+        {
+            if (ve1 == ve2)
+                return 0;
+            int resp = String.Compare(Convert.ToString(ve1.Marca), Convert.ToString(ve2.Marca));
+            return resp;
+        }
     }
 }
