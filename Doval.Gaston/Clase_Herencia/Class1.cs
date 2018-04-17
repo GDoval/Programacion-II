@@ -203,6 +203,10 @@ namespace Clase_Herencia
             return resp = lav;
         }
 
-
+        public static int OrdenarVehiculosPorPatente(Vehiculo ve1, Vehiculo ve2)
+        {
+             int resp = String.Compare(ve1.Patente, ve2.Patente);
+             return resp;
+        }
     }
 }
