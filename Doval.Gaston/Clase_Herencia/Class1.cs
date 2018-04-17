@@ -8,13 +8,17 @@ namespace Clase_Herencia
 {
     public class Vehiculo
     {
-        protected string _patente;
-        protected byte _cantRuedas;
+        protected string _patente; //Protected significa que las clases hijas pueden acceder a los atributos/metodos como si fueran publicos
+        protected byte _cantRuedas; // pero para el resto de las clases no-hijas estos atributos/métodos son privados
         protected EMarcas _marca;
 
         public string Patente { get { return this._patente; } }
         public EMarcas Marca { get { return this._marca; } }
 
+        /// <summary>
+        /// Muestra los atributos de la clase Vehiculo
+        /// </summary>
+        /// <returns></returns>
         protected string Mostrar()
         {
             string resp = "";
@@ -22,6 +26,12 @@ namespace Clase_Herencia
             return resp;
         }
 
+        /// <summary>
+        /// Constructor de la clase vehiculo que recibe 3 parametros
+        /// </summary>
+        /// <param name="patente"></param>
+        /// <param name="ruedas"></param>
+        /// <param name="marcas"></param>
         public Vehiculo(string patente, byte ruedas, EMarcas marcas)
         {
             this._patente = patente;
@@ -29,6 +39,12 @@ namespace Clase_Herencia
             this._cantRuedas = ruedas;
         }
 
+        /// <summary>
+        /// Sobrecarga del == que compara patente y marca de dos objetos de tipo Vehiculo
+        /// </summary>
+        /// <param name="ve1"></param>
+        /// <param name="ve2"></param>
+        /// <returns></returns>
         public static bool operator ==(Vehiculo ve1, Vehiculo ve2)
         {
             bool resp = false;
@@ -48,6 +64,11 @@ namespace Clase_Herencia
     public class Auto : Vehiculo
     {
         protected int _cantAsientos;
+
+        /// <summary>
+        /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
+        /// </summary>
+        /// <returns></returns>
         public string MostrarAuto()
         {
             string resp = "";
@@ -55,6 +76,13 @@ namespace Clase_Herencia
             return resp;
         }
 
+        /// <summary>
+        /// Constructor, pasa 3 parametros al constructor de la clase Padre
+        /// </summary>
+        /// <param name="asientos"></param>
+        /// <param name="patente"></param>
+        /// <param name="ruedas"></param>
+        /// <param name="marca"></param>
         public Auto(int asientos, string patente, byte ruedas, EMarcas marca)
             : base(patente, ruedas, marca)
         {
@@ -66,13 +94,24 @@ namespace Clase_Herencia
     public class Camion : Vehiculo
     {
         protected float _tara;
+
+        /// <summary>
+        /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
+        /// </summary>
+        /// <returns></returns>
         public string MostrarCamion()
         {
             string resp = "";
             resp = base.Mostrar() + "\nTara: " + this._tara;
             return resp;
         }
-
+        /// <summary>
+        /// Constructor, pasa 3 parametros al constructor de la clase Padre
+        /// </summary>
+        /// <param name="tara"></param>
+        /// <param name="patente"></param>
+        /// <param name="ruedas"></param>
+        /// <param name="marca"></param>
         public Camion(float tara, string patente, byte ruedas, EMarcas marca)
             : base(patente, ruedas, marca)
         {
@@ -83,13 +122,24 @@ namespace Clase_Herencia
     public class Moto : Vehiculo
     {
         protected float _cilindrada;
+
+        /// <summary>
+        /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
+        /// </summary>
+        /// <returns></returns>
         public string MostrarMoto()
         {
             string resp = "";
             resp = base.Mostrar() + "\nCilindrada: " + this._cilindrada;
             return resp;
         }
-
+        /// <summary>
+        /// Constructor, pasa 3 parametros al constructor de la clase Padre
+        /// </summary>
+        /// <param name="cilindrada"></param>
+        /// <param name="patente"></param>
+        /// <param name="ruedas"></param>
+        /// <param name="marca"></param>
         public Moto(float cilindrada, string patente, byte ruedas, EMarcas marca)
             : base(patente, ruedas, marca)
         {
@@ -105,6 +155,12 @@ namespace Clase_Herencia
         private float _precioMoto;
         private float _precioCamion;
 
+        /// <summary>
+        /// Constructor con parametros, llama al constructor privado que genera una nueva (new) List<Vehiculos>
+        /// </summary>
+        /// <param name="precioAuto"></param>
+        /// <param name="precioMoto"></param>
+        /// <param name="precioCamion"></param>
         public Lavadero(float precioAuto, float precioMoto, float precioCamion) : this()
         {
             this._precioAuto = precioAuto;
@@ -117,7 +173,10 @@ namespace Clase_Herencia
             this._vehiculos = new List<Vehiculo>();
         }
 
-        public string Lavero { 
+        /// <summary>
+        /// Devuelve toda la informacion guardada en los atributos de la clase.
+        /// </summary>
+        public string Lava { 
             get { 
                 string resp = "";
                 resp += "$Autos: " + this._precioAuto + "\n$Camion: " + this._precioCamion + "\n$Moto: " + this._precioMoto + "\n";
@@ -145,7 +204,7 @@ namespace Clase_Herencia
         {
             double total = 0;
             int cont = 0;
-            foreach (Vehiculo ve in this._vehiculos) //Se puede hacer 3 contadores y eliminar unas de las condiciones de los IF
+            foreach (Vehiculo ve in this._vehiculos) //Se puede hacer 3 contadores y eliminar unas de las condiciones de los If
             {
                 if (nume == EVehiculos.Auto && ve is Auto)
                     cont++;
@@ -166,7 +225,12 @@ namespace Clase_Herencia
             }
             return total;
         }
-
+        /// <summary>
+        /// Busca un objeto de tipo Vehiculo dentro de la List de la clase Lavadero
+        /// </summary>
+        /// <param name="ve"></param>
+        /// <param name="lav"></param>
+        /// <returns></returns>
         public static bool operator ==(Vehiculo ve, Lavadero lav)
         {
             bool resp = false;
@@ -202,7 +266,12 @@ namespace Clase_Herencia
             }
             return resp = lav;
         }
-
+        /// <summary>
+        /// Devuelve 0 sin son iguales, 1 si el primero es mas grande, -1 si es mas chico
+        /// </summary>
+        /// <param name="ve1"></param>
+        /// <param name="ve2"></param>
+        /// <returns></returns>
         public static int OrdenarVehiculosPorPatente(Vehiculo ve1, Vehiculo ve2)
         {
              int resp = String.Compare(ve1.Patente, ve2.Patente);
