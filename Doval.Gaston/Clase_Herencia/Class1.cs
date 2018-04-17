@@ -183,5 +183,26 @@ namespace Clase_Herencia
             return !(ve == lav);
         }
 
+        public static Lavadero operator -(Vehiculo ve, Lavadero lav)
+        {
+            Lavadero resp;
+            if (ve == lav) //Reutilizo codigo de la sobrecarga del operador == entre Vehiculo y Lavadero (que se fija si el Vehiculo está dentro de la lista en Lavadero)
+            {
+                lav._vehiculos.Remove(ve);
+            }
+            return resp = lav;
+        }
+
+        public static Lavadero operator +(Vehiculo ve, Lavadero lav)
+        {
+            Lavadero resp;
+            if (ve != lav) // Idem operador menos. Si _no_ esta en la lista, se lo agrega
+            {
+                lav._vehiculos.Add(ve);
+            }
+            return resp = lav;
+        }
+
+
     }
 }
