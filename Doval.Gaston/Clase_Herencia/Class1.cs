@@ -134,9 +134,50 @@ namespace Clase_Herencia
             } 
         }
 
+        public List<Vehiculo> Vehiculos { get { return this._vehiculos; } }
 
+        public double MostrarTotalFacturado()
+        {
+            double total;
+            int contA = 0, contM = 0, contC = 0;
+            foreach (Vehiculo ve in this._vehiculos)
+            {
+                if (ve is Auto)
+                    contA++;
+                if (ve is Moto)
+                    contM++;
+                if (ve is Camion)
+                    contC++;
+            }
+            total = Convert.ToDouble((this._precioAuto * contA) + (this._precioCamion * contC) + (this._precioMoto * contM));
+            return total;
+        }
 
+        public double MostrarTotalFacturado(EVehiculos nume)
+        {
+            double total = 0;
+            int cont = 0;
+            foreach (Vehiculo ve in this._vehiculos)
+            {
+                if (nume == EVehiculos.Auto && ve is Auto)
+                    cont++;
+                if (nume == EVehiculos.Camion && ve is Camion)
+                    cont++;
+                if (nume == EVehiculos.Moto && ve is Moto)
+                    cont++;
+            }
 
+            switch (nume)
+            {
+                case EVehiculos.Auto:
+                    return total = Convert.ToDouble(cont * this._precioAuto);
+                case EVehiculos.Camion:
+                    return total = Convert.ToDouble(cont * this._precioCamion);
+                case EVehiculos.Moto:
+                    return total = Convert.ToDouble(cont * this._precioMoto);
+            }
+            return total;
+        }
 
     }
 }
