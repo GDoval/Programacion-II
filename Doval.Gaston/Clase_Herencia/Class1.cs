@@ -136,28 +136,16 @@ namespace Clase_Herencia
 
         public List<Vehiculo> Vehiculos { get { return this._vehiculos; } }
 
-        public double MostrarTotalFacturado()
+        public double MostrarTotalFacturado() // Se llama al metodo que recibe el parametro para no repetir codigo, xq el otro retorna el total para un solo tipo de Vehiculo
         {
-            double total;
-            int contA = 0, contM = 0, contC = 0;
-            foreach (Vehiculo ve in this._vehiculos)
-            {
-                if (ve is Auto)
-                    contA++;
-                if (ve is Moto)
-                    contM++;
-                if (ve is Camion)
-                    contC++;
-            }
-            total = Convert.ToDouble((this._precioAuto * contA) + (this._precioCamion * contC) + (this._precioMoto * contM));
-            return total;
+            return this.MostrarTotalFacturado(EVehiculos.Auto) + this.MostrarTotalFacturado(EVehiculos.Camion) + this.MostrarTotalFacturado(EVehiculos.Moto);
         }
 
         public double MostrarTotalFacturado(EVehiculos nume)
         {
             double total = 0;
             int cont = 0;
-            foreach (Vehiculo ve in this._vehiculos)
+            foreach (Vehiculo ve in this._vehiculos) //Se puede hacer 3 contadores y eliminar unas de las condiciones de los IF
             {
                 if (nume == EVehiculos.Auto && ve is Auto)
                     cont++;
@@ -177,6 +165,22 @@ namespace Clase_Herencia
                     return total = Convert.ToDouble(cont * this._precioMoto);
             }
             return total;
+        }
+
+        public static bool operator ==(Vehiculo ve, Lavadero lav)
+        {
+            bool resp = false;
+            foreach (Vehiculo v in lav._vehiculos)
+            {
+                if (ve == v)
+                    return resp = true;
+            }
+            return resp;
+        }
+
+        public static bool operator !=(Vehiculo ve, Lavadero lav)
+        {
+            return !(ve == lav);
         }
 
     }
