@@ -19,7 +19,7 @@ namespace Clase_Herencia
         /// Muestra los atributos de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        protected string Mostrar()
+        public virtual string Mostrar()
         {
             string resp = "";
             resp = this.Patente + "  " + this.Marca + "    " + this._cantRuedas ;
@@ -71,7 +71,7 @@ namespace Clase_Herencia
         /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        public string MostrarAuto()
+        public override string Mostrar()
         {
             string resp = "";
             resp = base.Mostrar() + "\nCantidad asientos: " + this._cantAsientos;
@@ -101,7 +101,7 @@ namespace Clase_Herencia
         /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        public string MostrarCamion()
+        public override string Mostrar()
         {
             string resp = "";
             resp = base.Mostrar() + "\nTara: " + this._tara;
@@ -129,7 +129,7 @@ namespace Clase_Herencia
         /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        public string MostrarMoto()
+        public override string Mostrar()
         {
             string resp = "";
             resp = base.Mostrar() + "\nCilindrada: " + this._cilindrada;
@@ -184,12 +184,7 @@ namespace Clase_Herencia
                 resp += "$Autos: " + this._precioAuto + "\n$Camion: " + this._precioCamion + "\n$Moto: " + this._precioMoto + "\n";
                 foreach (Vehiculo ve in this._vehiculos)
                 {
-                    if (ve is Auto)
-                        resp += ((Auto)ve).MostrarAuto() + "\n";
-                    if (ve is Moto)
-                        resp += ((Moto)ve).MostrarMoto() + "\n";
-                    if (ve is Camion)
-                        resp += ((Camion)ve).MostrarCamion() + "\n";
+                    resp += ve.Mostrar();
                 }
                 return resp;
             } 
@@ -261,12 +256,11 @@ namespace Clase_Herencia
 
         public static Lavadero operator +(Vehiculo ve, Lavadero lav)
         {
-            Lavadero resp;
             if (ve != lav) // Idem operador menos. Si _no_ esta en la lista, se lo agrega
             {
                 lav._vehiculos.Add(ve);
             }
-            return resp = lav;
+            return lav;
         }
         /// <summary>
         /// Devuelve 0 sin son iguales, 1 si el primero es mas grande, -1 si es mas chico
@@ -280,7 +274,7 @@ namespace Clase_Herencia
              return resp;
         }
         /// <summary>
-        /// Devuelve 0 sin son iguales, 1 si el primero es mas grande, -1 si es mas chico
+        /// Devuelve 0 sin son iguales, 1 si el primero es mas grande, -1 si es mas chico.
         /// </summary>
         /// <param name="ve1"></param>
         /// <param name="ve2"></param>

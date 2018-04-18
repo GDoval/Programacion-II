@@ -6,3 +6,11 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\bin\Debug\Clase_Herencia.pdb
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\obj\Debug\Main de Prueba Herencia.exe
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\obj\Debug\Main de Prueba Herencia.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\bin\Debug\Main de Prueba Herencia.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\obj\Debug\Main de Prueba Herencia.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\obj\Debug\Main de Prueba Herencia.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\obj\Debug\Main de Prueba Herencia.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\bin\Debug\Main de Prueba Herencia.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\bin\Debug\Main de Prueba Herencia.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\bin\Debug\Clase_Herencia.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Main de Prueba Herencia\bin\Debug\Clase_Herencia.pdb
