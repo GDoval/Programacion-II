@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase_Herencia
 {
-    public class Vehiculo
+    public abstract class Vehiculo
     {
         protected string _patente; //Protected significa que las clases hijas pueden acceder a los atributos/metodos como si fueran publicos
         protected byte _cantRuedas; // pero para el resto de las clases no-hijas estos atributos/métodos son privados
@@ -15,6 +15,9 @@ namespace Clase_Herencia
         public string Patente { get { return this._patente; } }
         public EMarcas Marca { get { return this._marca; } }
 
+        public abstract string Acelerar();
+
+
         /// <summary>
         /// Muestra los atributos de la clase Vehiculo
         /// </summary>
@@ -22,7 +25,7 @@ namespace Clase_Herencia
         protected virtual string Mostrar()
         {
             string resp = "";
-            resp = this.Patente + "  " + this.Marca + "    " + this._cantRuedas ;
+            resp = this.Patente + "  " + this.Marca + "    " + this._cantRuedas + "\n";
             return resp;
         }
 
@@ -96,6 +99,11 @@ namespace Clase_Herencia
             return false;
         }
 
+        public override string Acelerar()
+        {
+            return "El auto está acelerado\n";
+        }
+
         /// <summary>
         /// Constructor, pasa 3 parametros al constructor de la clase Padre
         /// </summary>
@@ -139,6 +147,11 @@ namespace Clase_Herencia
             return false;
         }
 
+        public override string Acelerar()
+        {
+            return "El camion está acelerando\n";
+        }
+
         /// <summary>
         /// Constructor, pasa 3 parametros al constructor de la clase Padre
         /// </summary>
@@ -179,6 +192,11 @@ namespace Clase_Herencia
                 if (this == (Moto)obj) //Se castea para que _no_ compare direcciones de memoria
                     return true;
             return false;
+        }
+
+        public override string Acelerar()
+        {
+            return "La moto está acelerando\n";
         }
 
 
