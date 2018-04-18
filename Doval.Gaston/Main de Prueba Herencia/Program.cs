@@ -13,10 +13,15 @@ namespace Main_de_Prueba_Herencia
         {
             Lavadero lav = new Lavadero(10, 8, 15);
             Auto unAuto = new Auto(4, "888888", 4, EMarcas.Honda);
-            Auto otroAuto = new Auto(2, "2222222", 3, EMarcas.Fiat);
+            Auto otroAuto = new Auto(4, "888888", 4, EMarcas.Honda);
             Camion unCamion = new Camion(587, "555555", 12, EMarcas.Scania);
-            Camion otroCamion = new Camion(999, "333333", 1, EMarcas.Fiat);
+            Camion otroCamion = new Camion(587, "555555", 12, EMarcas.Scania);
             Moto unaMoto = new Moto(777, "11111111", 2, EMarcas.Zanella);
+
+
+            if (unCamion.Equals(otroCamion))
+                Console.WriteLine("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n\n");
+
             lav = unAuto + lav;
             lav = otroAuto + lav;
             lav = unCamion + lav;

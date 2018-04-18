@@ -19,7 +19,7 @@ namespace Clase_Herencia
         /// Muestra los atributos de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        protected string Mostrar()
+        protected virtual string Mostrar()
         {
             string resp = "";
             resp = this.Patente + "  " + this.Marca + "    " + this._cantRuedas ;
@@ -74,7 +74,7 @@ namespace Clase_Herencia
         /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        protected string Mostrar()
+        protected override string Mostrar()
         {
             string resp = "";
             resp = base.Mostrar() + "\nCantidad asientos: " + this._cantAsientos;
@@ -84,6 +84,16 @@ namespace Clase_Herencia
         public override string ToString()
         {
             return this.Mostrar();
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Auto)
+            {
+                if (this == (Auto)obj)
+                    return true;
+            }
+            return false;
         }
 
         /// <summary>
@@ -109,7 +119,7 @@ namespace Clase_Herencia
         /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        protected string Mostrar()
+        protected override string Mostrar()
         {
             string resp = "";
             resp = base.Mostrar() + "\nTara: " + this._tara;
@@ -120,6 +130,15 @@ namespace Clase_Herencia
         {
             return this.Mostrar();
         }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Camion)
+                if (this == (Camion)obj)
+                    return true;
+            return false;
+        }
+
         /// <summary>
         /// Constructor, pasa 3 parametros al constructor de la clase Padre
         /// </summary>
@@ -142,7 +161,7 @@ namespace Clase_Herencia
         /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        protected string Mostrar()
+        protected override string Mostrar()
         {
             string resp = "";
             resp = base.Mostrar() + "\nCilindrada: " + this._cilindrada;
@@ -153,6 +172,16 @@ namespace Clase_Herencia
         {
             return this.Mostrar();
         }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Moto)
+                if (this == (Moto)obj) //Se castea para que _no_ compare direcciones de memoria
+                    return true;
+            return false;
+        }
+
+
         /// <summary>
         /// Constructor, pasa 3 parametros al constructor de la clase Padre
         /// </summary>
