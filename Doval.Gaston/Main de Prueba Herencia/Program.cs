@@ -25,7 +25,7 @@ namespace Main_de_Prueba_Herencia
             Console.WriteLine("**********Sin Ordenar************");
             foreach (Vehiculo ve in lav.Vehiculos)
             {
-                Console.WriteLine(ve.Mostrar());
+                Console.WriteLine(ve);
             }
 
             Console.ReadLine();
@@ -33,7 +33,7 @@ namespace Main_de_Prueba_Herencia
             Console.WriteLine("\n\n**********Ordenado por patente************");
             foreach (Vehiculo ve in lav.Vehiculos)
             {
-                Console.WriteLine(ve.Mostrar());
+                Console.WriteLine(ve);
             }
 
             Console.ReadLine();

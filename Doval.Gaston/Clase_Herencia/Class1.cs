@@ -19,13 +19,17 @@ namespace Clase_Herencia
         /// Muestra los atributos de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        public virtual string Mostrar()
+        protected string Mostrar()
         {
             string resp = "";
             resp = this.Patente + "  " + this.Marca + "    " + this._cantRuedas ;
             return resp;
         }
 
+        public override string ToString() //Heredado de la clase Object. Se lo sobrescribe para que llame a las funciones protected Mostrar de cada clase de la relacion de herencia de Vehiculo
+        {
+            return this.Mostrar();
+        }
         /// <summary>
         /// Constructor de la clase vehiculo que recibe 3 parametros
         /// </summary>
@@ -62,7 +66,6 @@ namespace Clase_Herencia
     }
 
 
-
     public class Auto : Vehiculo
     {
         protected int _cantAsientos;
@@ -71,11 +74,16 @@ namespace Clase_Herencia
         /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        public override string Mostrar()
+        protected string Mostrar()
         {
             string resp = "";
             resp = base.Mostrar() + "\nCantidad asientos: " + this._cantAsientos;
             return resp;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
 
         /// <summary>
@@ -101,11 +109,16 @@ namespace Clase_Herencia
         /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        public override string Mostrar()
+        protected string Mostrar()
         {
             string resp = "";
             resp = base.Mostrar() + "\nTara: " + this._tara;
             return resp;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
         /// <summary>
         /// Constructor, pasa 3 parametros al constructor de la clase Padre
@@ -129,11 +142,16 @@ namespace Clase_Herencia
         /// Muestra el atributo propio de la clase, mas los atributos heredados de la clase Vehiculo
         /// </summary>
         /// <returns></returns>
-        public override string Mostrar()
+        protected string Mostrar()
         {
             string resp = "";
             resp = base.Mostrar() + "\nCilindrada: " + this._cilindrada;
             return resp;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
         /// <summary>
         /// Constructor, pasa 3 parametros al constructor de la clase Padre
@@ -184,7 +202,7 @@ namespace Clase_Herencia
                 resp += "$Autos: " + this._precioAuto + "\n$Camion: " + this._precioCamion + "\n$Moto: " + this._precioMoto + "\n";
                 foreach (Vehiculo ve in this._vehiculos)
                 {
-                    resp += ve.Mostrar();
+                    resp += ve.ToString();
                 }
                 return resp;
             } 
