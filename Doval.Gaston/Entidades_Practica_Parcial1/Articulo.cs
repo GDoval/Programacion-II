@@ -75,6 +75,17 @@ namespace Entidades_Practica_Parcial1
             return !(articuloUno == articuloDos);
         }
 
+        public override bool Equals(object obj)
+        {
+            if (obj is Articulo)
+            {
+                if (this == (Articulo)obj)
+                    return true;
+            }
+            return false;
+        }
+
+
         public static int operator -(Articulo articuloUno, int cantidad)
         {
             int resp;
