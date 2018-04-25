@@ -8,11 +8,11 @@ namespace Entidades_Practica_Parcial1
 {
     public class Articulo
     {
-        private int _codigo;
-        private string _nombre;
-        private float _precioCosto;
-        private float _precioVenta;
-        private int _stock;
+        protected int _codigo;
+        protected string _nombre;
+        protected float _precioCosto;
+        protected float _precioVenta;
+        protected int _stock;
 
         public string NombreYCodigo 
         { get 
@@ -24,12 +24,12 @@ namespace Entidades_Practica_Parcial1
         }
 
 
-        public float PrecioCosto
+        public virtual float PrecioCosto
         {
             set
             {
                 this._precioCosto = value;
-                float recargo = value * (float)0.3;
+                float recargo = value * 0.3f;
                 this._precioVenta = value + recargo;
             }
         }

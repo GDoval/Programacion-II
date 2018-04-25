@@ -28,6 +28,7 @@ namespace Entidades_Practica_Parcial1
                 {
                     art.Stock = art + articuloComprado;
                     estoy = 1;
+                    break;
                 }
             }
             if (estoy == 0)
@@ -48,6 +49,7 @@ namespace Entidades_Practica_Parcial1
                     vendido = new Venta(articuloSolicitado, cantidad);
                     this._misVentas.Add(vendido);
                     estoy = 0;
+                    break;
                 }
                 else if (art == articuloSolicitado && !(art.HayStock(cantidad)))
                 {
