@@ -6,3 +6,6 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial_1\obj\Debu
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial_1\obj\Debug\Practica_Parcial_1.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial_1\bin\Debug\Entidades_Practica_Parcial1.dll
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial_1\bin\Debug\Entidades_Practica_Parcial1.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Practica_Parcial_1\bin\Debug\Practica_Parcial_1.exe.config
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Practica_Parcial_1\obj\Debug\Practica_Parcial_1.exe
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Practica_Parcial_1\obj\Debug\Practica_Parcial_1.pdb
