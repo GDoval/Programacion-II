@@ -40,7 +40,13 @@ namespace PrestamosPersonales
         }
 
         public static int OrdenarPorFecha(Prestamo p1, Prestamo p2) //Hacer con la List de la clase Financiera
-        {}
+        {
+            if (p1.Vencimiento > p2.Vencimiento)
+                return 1;
+            else
+                return -1;
+            
+        }
 
         public abstract void ExtenderPlazo(DateTime nuevoVencimiento);
 
