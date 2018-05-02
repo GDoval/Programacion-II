@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston.2A\EntidadFinanciera\bin\Debug\EntidadFinanciera.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston.2A\EntidadFinanciera\bin\Debug\EntidadFinanciera.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston.2A\EntidadFinanciera\obj\Debug\EntidadFinanciera.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston.2A\EntidadFinanciera\obj\Debug\EntidadFinanciera.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston.2A\EntidadFinanciera\obj\Debug\EntidadFinanciera.pdb
