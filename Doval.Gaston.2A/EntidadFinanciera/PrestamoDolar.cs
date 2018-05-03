@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrestamosPersonales
 {
-    class PrestamoDolar : Prestamo
+    public class PrestamoDolar : Prestamo
     {
         private PeriocidadDePago periocidad;
         public float Interes { get { return this.CalcularInteres(); } }
@@ -41,7 +41,27 @@ namespace PrestamosPersonales
             this.periocidad = periodicidad;
         }
 
-        public string Mostrar()
+        public override void ExtenderPlazo(DateTime nuevoVencimiento)
+        {
+
+            {
+                if (nuevoVencimiento > this.Vencimiento)
+                {
+                    while (!(DateTime.Equals(nuevoVencimiento, this.Vencimiento)))
+                    {
+                        this.Vencimiento = this.vencimiento.AddDays(1);
+                        this.monto += 2.5f;
+                    }
+                }
+                else
+                    return;
+                this.Vencimiento = nuevoVencimiento;
+            }
+        }
+
+
+
+        public override string Mostrar()
         {
             float inte = 0;
             switch (this.periocidad)
@@ -57,13 +77,10 @@ namespace PrestamosPersonales
                     break;
             }
             StringBuilder resp = new StringBuilder();
-            resp.Append("El vencimiento es: ");
-            resp.Append(base.Vencimiento);
-            resp.Append("\nEl monto original es: ");
-            resp.Append(this.Monto);
+            resp.Append(base.Mostrar());
             resp.Append("\nEl procentaje de interes aplicado fue: ");
             resp.Append(inte);
-            resp.Append("\nEl monto total es de: ");
+            resp.Append("\nEl monto total es de: \n");
             resp.Append(this.Interes);
             return resp.ToString();
         }

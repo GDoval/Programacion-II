@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrestamosPersonales
 {
-    class PrestamoPesos : Prestamo
+    public class PrestamoPesos : Prestamo
     {
         private float _porcentajeInteres;
         public float Interes { get { return this.CalcularInteres(); } }
@@ -18,7 +18,7 @@ namespace PrestamosPersonales
             return resp;
         }
 
-        public void ExtenderPlazo(DateTime nuevoVencimiento)
+        public override void ExtenderPlazo(DateTime nuevoVencimiento)
         {
             if (nuevoVencimiento > this.Vencimiento)
             {
@@ -43,16 +43,13 @@ namespace PrestamosPersonales
         {
             this._porcentajeInteres = porcentajeInteres;
         }
-        public string Mostrar()
+        public override string Mostrar()
         {
             StringBuilder resp = new StringBuilder();
-            resp.Append("El vencimiento es: ");
-            resp.Append(base.Vencimiento);
-            resp.Append("\nEl monto original es: ");
-            resp.Append(this.Monto);
+            resp.Append(base.Mostrar());
             resp.Append("\nEl procentaje de interes aplicado fue: ");
             resp.Append(this._porcentajeInteres);
-            resp.Append("\nEl monto total es de: ");
+            resp.Append("\nEl monto total es de: \n");
             resp.Append(this.Interes);
             return resp.ToString();
         }

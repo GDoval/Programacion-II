@@ -53,7 +53,7 @@ namespace PrestamosPersonales
         public virtual string Mostrar()
         {
             string resp = "";
-            resp += "Monto: " + this.monto + "\n-----\nVencimiento: " + this.vencimiento + "\n";
+            resp += "  Monto: " + this.monto + "\n-----\nVencimiento: " + this.vencimiento + "\n";
             return resp;
         }
 
