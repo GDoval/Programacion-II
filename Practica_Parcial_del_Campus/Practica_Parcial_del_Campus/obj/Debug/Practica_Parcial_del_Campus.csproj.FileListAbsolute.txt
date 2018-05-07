@@ -1,0 +1,6 @@
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Practica_Parcial_del_Campus\Practica_Parcial_del_Campus\bin\Debug\Practica_Parcial_del_Campus.exe.config
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Practica_Parcial_del_Campus\Practica_Parcial_del_Campus\bin\Debug\Practica_Parcial_del_Campus.exe
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Practica_Parcial_del_Campus\Practica_Parcial_del_Campus\bin\Debug\Practica_Parcial_del_Campus.pdb
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Practica_Parcial_del_Campus\Practica_Parcial_del_Campus\obj\Debug\Practica_Parcial_del_Campus.csprojResolveAssemblyReference.cache
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Practica_Parcial_del_Campus\Practica_Parcial_del_Campus\obj\Debug\Practica_Parcial_del_Campus.exe
+C:\Users\Gaston\Documents\CosasGit\Programacion-II\Practica_Parcial_del_Campus\Practica_Parcial_del_Campus\obj\Debug\Practica_Parcial_del_Campus.pdb
