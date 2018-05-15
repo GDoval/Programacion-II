@@ -18,6 +18,16 @@ namespace Clase_Excepciones
                 Console.WriteLine(Convert.ToString(num1._Numero));
             else
                 Console.WriteLine("No se pudo parsear");
+            ColectoraDeNumeros colec = new ColectoraDeNumeros(ETipoNumero.Par);
+            try
+            {
+                colec = colec + num1;
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
             Console.ReadLine();
 
         }
