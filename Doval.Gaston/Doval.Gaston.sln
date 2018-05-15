@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica_Parcial_1", "Pract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades_Practica_Parcial1", "Entidades_Practica_Parcial1\Entidades_Practica_Parcial1.csproj", "{7C719966-73CC-4329-BBFB-F07401F1A147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_Excepciones", "Clase_Excepciones\Clase_Excepciones.csproj", "{14B2A1E2-AEAA-4D43-B83F-C4038AD1E913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria_Clase_Excepciones", "Libreria_Clase_Excepciones\Libreria_Clase_Excepciones.csproj", "{4B5E85E5-E517-4871-84F6-7A2E8A71F463}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +191,14 @@ Global
 		{7C719966-73CC-4329-BBFB-F07401F1A147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C719966-73CC-4329-BBFB-F07401F1A147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C719966-73CC-4329-BBFB-F07401F1A147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B2A1E2-AEAA-4D43-B83F-C4038AD1E913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B2A1E2-AEAA-4D43-B83F-C4038AD1E913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B2A1E2-AEAA-4D43-B83F-C4038AD1E913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B2A1E2-AEAA-4D43-B83F-C4038AD1E913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5E85E5-E517-4871-84F6-7A2E8A71F463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5E85E5-E517-4871-84F6-7A2E8A71F463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5E85E5-E517-4871-84F6-7A2E8A71F463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5E85E5-E517-4871-84F6-7A2E8A71F463}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
