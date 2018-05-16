@@ -1,0 +1,8 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15\obj\Debug\TestEntidades_Clase15.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15\bin\Debug\TestEntidades_Clase15.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15\bin\Debug\TestEntidades_Clase15.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15\bin\Debug\TestEntidades_Clase15.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15\bin\Debug\Entidades_Clase15.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15\bin\Debug\Entidades_Clase15.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15\obj\Debug\TestEntidades_Clase15.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15\obj\Debug\TestEntidades_Clase15.pdb

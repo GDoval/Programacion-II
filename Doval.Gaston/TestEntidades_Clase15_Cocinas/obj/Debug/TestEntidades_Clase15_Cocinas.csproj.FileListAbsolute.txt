@@ -1,0 +1,8 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15_Cocinas\obj\Debug\TestEntidades_Clase15_Cocinas.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15_Cocinas\bin\Debug\TestEntidades_Clase15_Cocinas.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15_Cocinas\bin\Debug\TestEntidades_Clase15_Cocinas.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15_Cocinas\bin\Debug\TestEntidades_Clase15_Cocinas.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15_Cocinas\bin\Debug\Entidades_Clase15.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15_Cocinas\bin\Debug\Entidades_Clase15.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15_Cocinas\obj\Debug\TestEntidades_Clase15_Cocinas.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\TestEntidades_Clase15_Cocinas\obj\Debug\TestEntidades_Clase15_Cocinas.pdb
