@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica_Interfaz_Libreria
 {
-    public class Avion : Vehiculo, IAFIP
+    public class Avion : Vehiculo, IAFIP,IARBA
     {
         protected double _velocidadMaxima;
         public Avion(double precio, double velocidad)

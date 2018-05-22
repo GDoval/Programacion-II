@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica_Interfaz_Libreria
 {
-    public class Carreta : Vehiculo
+    public class Carreta : Vehiculo,IARBA
     {
         public Carreta(double precio)
             :base(precio)

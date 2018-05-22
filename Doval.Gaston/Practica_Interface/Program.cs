@@ -11,7 +11,9 @@ namespace Practica_Interface
     {
         static void Main(string[] args)
         {
-
+            Deportivo avioncito = new Deportivo(456, "ABC123", 15);
+            avioncito.MostrarPrecio();
+            Console.ReadLine();
         }
     }
 }

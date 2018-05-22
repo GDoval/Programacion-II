@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica_Interfaz_Libreria
 {
-    public class Deportivo : Auto, IAFIP
+    public class Deportivo : Auto, IAFIP,IARBA
     {
         private int _caballosFuerza;
         public Deportivo(double precio, string patente, int caba)
