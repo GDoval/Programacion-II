@@ -1,0 +1,8 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Interface\bin\Debug\Practica_Interface.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Interface\bin\Debug\Practica_Interface.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Interface\bin\Debug\Practica_Interface.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Interface\bin\Debug\Practica_Interfaz_Libreria.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Interface\bin\Debug\Practica_Interfaz_Libreria.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Interface\obj\Debug\Practica_Interface.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Interface\obj\Debug\Practica_Interface.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Practica_Interface\obj\Debug\Practica_Interface.pdb
