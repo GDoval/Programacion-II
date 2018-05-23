@@ -30,7 +30,10 @@ namespace Frm_Archivos
             Jugador jugador = new Jugador(this.txtNombre.Text, this.txtApellido.Text, (EPuesto)this.cboPuesto.SelectedItem);
             string linea = "";
             bool resp;
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\jugadores.txt"; //devuelve el path al desktop del usuario logeado
+            string path = "";
+            if (this.saveFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK) //abre una ventana para que el usuario elija donde guardar el archivo, y recupera ese path dentro de una variable de tipo string
+                path = this.saveFileDialog1.FileNames[0];
+            //string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\jugadores.txt"; //devuelve el path al desktop del usuario logeado
             resp = AdministradorDeArchivos.Escribir(path, jugador.ToString(), true);
             if (resp)
                 resp = AdministradorDeArchivos.Leer(path, out linea);
@@ -40,6 +43,11 @@ namespace Frm_Archivos
                 MessageBox.Show(linea);
             else
                 MessageBox.Show("No se pudo leer el archivo");
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+    
         }
     }
 }

@@ -33,5 +33,36 @@ namespace Entidades_Clase_Archivos
             string resp = this.Nombre + "-" + this.Apellido + "-" + this.Puesto;
             return resp;
         }
+
+        public static bool TraerUno(string path, Jugador buscado, out Jugador retorno )
+        {
+            bool resp = true;
+            string todo;
+            string[] nombres, cadobj;
+            retorno = null;
+            bool flag = AdministradorDeArchivos.Leer(path, out todo);
+            if (flag)
+            {
+                nombres= todo.Split('\n');
+                foreach (string i in nombres)
+                {
+                    cadobj = i.Split('-');
+                    if (buscado.Nombre == cadobj[0] && buscado.Apellido == cadobj[1] && buscado.Puesto.ToString() == cadobj[2])
+                    {
+                        retorno = new Jugador(cadobj[0], cadobj[1], (EPuesto)Enum.Parse(typeof(EPuesto),cadobj[2]));
+                        resp = true;
+                        break;
+                    }
+                    else
+                        resp = false;
+                }
+            }
+            else
+            {
+                retorno = null;
+                resp = false;
+            }
+            return resp;
+        }
     }
 }

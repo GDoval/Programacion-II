@@ -35,6 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cboPuesto = new System.Windows.Forms.ComboBox();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -96,6 +97,10 @@
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -124,6 +129,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cboPuesto;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
