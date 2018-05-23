@@ -3,3 +3,8 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Practica_Parcial1
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Practica_Parcial1\obj\Debug\Entidades_Practica_Parcial1.dll
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Practica_Parcial1\obj\Debug\Entidades_Practica_Parcial1.pdb
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Practica_Parcial1\obj\Debug\Entidades_Practica_Parcial1.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Entidades_Practica_Parcial1\bin\Debug\Entidades_Practica_Parcial1.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Entidades_Practica_Parcial1\bin\Debug\Entidades_Practica_Parcial1.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Entidades_Practica_Parcial1\obj\Debug\Entidades_Practica_Parcial1.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Entidades_Practica_Parcial1\obj\Debug\Entidades_Practica_Parcial1.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Entidades_Practica_Parcial1\obj\Debug\Entidades_Practica_Parcial1.pdb

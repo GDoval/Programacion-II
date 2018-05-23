@@ -37,3 +37,16 @@ C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Practica_Parcial
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.pdb
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.exe.manifest
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.application
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.exe.config
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.exe.manifest
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.application
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\bin\Debug\Practica_Parcial.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_TP1.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.numero1.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.Properties.Resources.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_TP1.csproj.GenerateResource.Cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.exe.manifest
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.application
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Practica_Parcial\obj\Debug\Practica_Parcial.pdb

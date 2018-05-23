@@ -47,7 +47,49 @@ namespace Frm_Archivos
 
         private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
-    
+
+        }
+
+        private void btnTraer_Click(object sender, EventArgs e)
+        {
+            bool resp = true;
+            string todo;
+            string path = this.saveFileDialog1.FileNames[0];
+            string[] nombres, cadobj;
+            Jugador retorno = null;
+            Jugador buscado = new Jugador(this.txtNombre.Text, this.txtApellido.Text, (EPuesto)this.cboPuesto.SelectedItem);
+            bool flag = AdministradorDeArchivos.Leer(path, out todo);
+            if (flag)
+            {
+                nombres = todo.Split('\n');
+                foreach (string i in nombres)
+                {
+                    cadobj = i.Split('-');
+                    MessageBox.Show(/*cadobj[0] + "-" + cadobj[1] + "-" + */cadobj[2]);
+                    /*if (buscado.Nombre == cadobj[0] && buscado.Apellido == cadobj[1] && (buscado.Puesto.ToString()) == cadobj[2])
+                    {
+                        MessageBox.Show(cadobj[0] + "-" + cadobj[1] + "-" + cadobj[2]);
+                    }*/
+                        
+                }
+            }
+                
+            /*Jugador jugador = new Jugador(this.txtNombre.Text, this.txtApellido.Text, (EPuesto)this.cboPuesto.SelectedItem);
+            string path = this.saveFileDialog1.FileNames[0];
+            Jugador retorno;
+            this.txtApellido.Text = "";
+            this.txtNombre.Text = "";
+            MessageBox.Show("Buscando");
+            bool resp = Jugador.TraerUno(path, jugador, out retorno);
+            if (resp)
+            {
+                this.txtApellido.Text = retorno.Apellido;
+                this.txtNombre.Text = retorno.Nombre;
+                this.cboPuesto.SelectedItem = retorno.Puesto;
+                MessageBox.Show("Jugador encontrado!");
+            }
+            else
+                MessageBox.Show("Nope!");*/
         }
     }
 }

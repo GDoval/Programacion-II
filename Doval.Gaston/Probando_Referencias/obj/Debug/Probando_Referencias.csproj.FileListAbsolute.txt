@@ -16,3 +16,9 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\bin\De
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\bin\Debug\Probando_Referencias.exe.config
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\bin\Debug\Probando_Referencias.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\bin\Debug\Probando_Referencias.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Probando_Referencias\obj\Debug\Probando_Referencias.pdb

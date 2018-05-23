@@ -34,3 +34,15 @@ C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Equipo_Jugador\o
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Equipo_Jugador\obj\Debug\Equipo_Jugador.FrmJugador.resources
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Equipo_Jugador\obj\Debug\Equipo_Jugador.Properties.Resources.resources
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\Equipo_Jugador\obj\Debug\Equipo_Jugador.csproj.GenerateResource.Cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\bin\Debug\Equipo_Jugador.exe.config
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\bin\Debug\Equipo_Jugador.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\bin\Debug\Equipo_Jugador.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\bin\Debug\Entidades.Clase_7_Ejercicio_29.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\bin\Debug\Entidades.Clase_7_Ejercicio_29.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\obj\Debug\Equipo_Jugador.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\obj\Debug\Equipo_Jugador.FrmEquipo.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\obj\Debug\Equipo_Jugador.FrmJugador.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\obj\Debug\Equipo_Jugador.Properties.Resources.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\obj\Debug\Equipo_Jugador.csproj.GenerateResource.Cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\obj\Debug\Equipo_Jugador.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Equipo_Jugador\obj\Debug\Equipo_Jugador.pdb

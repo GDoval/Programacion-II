@@ -8,3 +8,8 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\ClassLibrary1\bin\Debug\
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\ClassLibrary1\obj\Debug\Sobrecarga_Constructores.csprojResolveAssemblyReference.cache
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\ClassLibrary1\obj\Debug\Sobrecarga_Constructores.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

@@ -8,3 +8,8 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio10\bin\Debug\Ejerc
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio10\bin\Debug\Ejercicio10.pdb
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio10\obj\Debug\Ejercicio10.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio10\obj\Debug\Ejercicio10.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio10\bin\Debug\Ejercicio10.exe.config
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio10\bin\Debug\Ejercicio10.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio10\bin\Debug\Ejercicio10.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio10\obj\Debug\Ejercicio10.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio10\obj\Debug\Ejercicio10.pdb

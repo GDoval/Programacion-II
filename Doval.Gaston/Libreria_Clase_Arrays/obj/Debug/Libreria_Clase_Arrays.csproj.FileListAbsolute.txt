@@ -8,3 +8,8 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\bi
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\obj\Debug\Libreria_Clase_Arrays.csprojResolveAssemblyReference.cache
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\obj\Debug\Libreria_Clase_Arrays.dll
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\obj\Debug\Libreria_Clase_Arrays.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\bin\Debug\Libreria_Clase_Arrays.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\bin\Debug\Libreria_Clase_Arrays.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\obj\Debug\Libreria_Clase_Arrays.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\obj\Debug\Libreria_Clase_Arrays.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\obj\Debug\Libreria_Clase_Arrays.pdb

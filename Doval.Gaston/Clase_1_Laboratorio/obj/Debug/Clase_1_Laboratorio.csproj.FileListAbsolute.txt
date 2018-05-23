@@ -22,3 +22,11 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\EntidadSello.dll
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\EntidadSello.pdb
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\Clase_1_Laboratorio.exe.config
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\Clase_1_Laboratorio.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\Clase_1_Laboratorio.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\EntidadSello.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\bin\Debug\EntidadSello.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_1_Laboratorio\obj\Debug\Clase_1_Laboratorio.pdb

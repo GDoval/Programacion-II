@@ -14,3 +14,8 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\EntidadSello\bin\Debug\E
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.csprojResolveAssemblyReference.cache
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.dll
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\EntidadSello\bin\Debug\EntidadSello.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\EntidadSello\bin\Debug\EntidadSello.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.pdb

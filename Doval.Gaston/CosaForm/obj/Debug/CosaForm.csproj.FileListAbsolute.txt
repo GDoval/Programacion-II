@@ -20,3 +20,14 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\CosaForm\obj\Debug\CosaF
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\CosaForm\obj\Debug\CosaForm.Form1.resources
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\CosaForm\obj\Debug\CosaForm.Properties.Resources.resources
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\CosaForm\obj\Debug\CosaForm.csproj.GenerateResource.Cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\bin\Debug\CosaForm.exe.config
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\bin\Debug\CosaForm.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\bin\Debug\CosaForm.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\bin\Debug\ClassLibrary1.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\bin\Debug\ClassLibrary1.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\obj\Debug\CosaForm.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\obj\Debug\CosaForm.Form1.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\obj\Debug\CosaForm.Properties.Resources.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\obj\Debug\CosaForm.csproj.GenerateResource.Cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\obj\Debug\CosaForm.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\CosaForm\obj\Debug\CosaForm.pdb

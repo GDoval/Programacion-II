@@ -23,3 +23,9 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio01\bin\Debug\Ej
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio01\obj\Debug\Ejercicio01.csprojResolveAssemblyReference.cache
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio01\obj\Debug\Ejercicio01.exe
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio01\obj\Debug\Ejercicio01.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio01\bin\Debug\Ejercicio01.exe.config
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio01\bin\Debug\Ejercicio01.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio01\bin\Debug\Ejercicio01.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio01\obj\Debug\Ejercicio01.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio01\obj\Debug\Ejercicio01.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio01\obj\Debug\Ejercicio01.pdb
