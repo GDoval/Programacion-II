@@ -30,9 +30,10 @@ namespace Frm_Archivos
             Jugador jugador = new Jugador(this.txtNombre.Text, this.txtApellido.Text, (EPuesto)this.cboPuesto.SelectedItem);
             string linea = "";
             bool resp;
-            resp = AdministradorDeArchivos.Escribir(@"D:\jugadores.txt", jugador.ToString(), true);
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\jugadores.txt"; //devuelve el path al desktop del usuario logeado
+            resp = AdministradorDeArchivos.Escribir(path, jugador.ToString(), true);
             if (resp)
-                resp = AdministradorDeArchivos.Leer(@"D:\jugadores.txt", out linea);
+                resp = AdministradorDeArchivos.Leer(path, out linea);
             else
                 MessageBox.Show("No se pudo escribir en el archivo");
             if (resp)
