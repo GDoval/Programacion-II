@@ -13,9 +13,17 @@ namespace Practica_Interfaz_Libreria
             :base(precio, patente)
         {this._caballosFuerza = caba;}
 
-        public double CalcularImpuesto()
+
+
+        double IAFIP.CalcularImpuesto()
         {
             double resp = this._precio * 0.28;
+            return resp;
+        }
+
+        double IARBA.CalcularImpuesto()
+        {
+            double resp = this._precio * 0.23;
             return resp;
         }
     }

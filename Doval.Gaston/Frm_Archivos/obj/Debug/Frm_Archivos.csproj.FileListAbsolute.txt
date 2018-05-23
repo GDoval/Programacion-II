@@ -1,0 +1,11 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\bin\Debug\Frm_Archivos.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\bin\Debug\Frm_Archivos.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\bin\Debug\Frm_Archivos.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\bin\Debug\Entidades_Clase_Archivos.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\bin\Debug\Entidades_Clase_Archivos.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\obj\Debug\Frm_Archivos.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\obj\Debug\Frm_Archivos.Form1.resources
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\obj\Debug\Frm_Archivos.Properties.Resources.resources
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\obj\Debug\Frm_Archivos.csproj.GenerateResource.Cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\obj\Debug\Frm_Archivos.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Archivos\obj\Debug\Frm_Archivos.pdb

@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Clase_Archivos\bin\Debug\Entidades_Clase_Archivos.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Clase_Archivos\bin\Debug\Entidades_Clase_Archivos.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Clase_Archivos\obj\Debug\Entidades_Clase_Archivos.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Clase_Archivos\obj\Debug\Entidades_Clase_Archivos.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Clase_Archivos\obj\Debug\Entidades_Clase_Archivos.csprojResolveAssemblyReference.cache

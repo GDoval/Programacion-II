@@ -15,15 +15,24 @@ namespace Practica_Interfaz_Libreria
             this._velocidadMaxima = velocidad;
         }
       
-        public double CalcularImpuesto()
-        {
-            double resp = 0;
-            resp= this._precio * 0.33;
-            return resp;
-        }
+
         public override double Precio
         {
             get { return base._precio; }
+        }
+
+        double IAFIP.CalcularImpuesto()
+        {
+            double resp = 0;
+            resp = this._precio * 0.33;
+            return resp;
+        }
+
+        double IARBA.CalcularImpuesto()
+        {
+            double resp = 0;
+            resp = this._precio * 0.27;
+            return resp;
         }
     }
 }

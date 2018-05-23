@@ -16,5 +16,12 @@ namespace Practica_Interfaz_Libreria
         {
             get { return base._precio; }
         }
+
+
+        public double CalcularImpuesto()
+        {
+            double resp = this._precio * 0.18;
+            return resp;
+        }
     }
 }
