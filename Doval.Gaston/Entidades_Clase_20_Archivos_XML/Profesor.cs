@@ -10,6 +10,10 @@ namespace Entidades_Clase_20_Archivos_XML
     {
         public string titulo;
 
+
+        public Profesor()
+            : base("", "", 0)
+        { }
         public Profesor(string titulo, string nombre, string apellido, int dni)
             : base(nombre, apellido, dni)
         { this.titulo = titulo; }

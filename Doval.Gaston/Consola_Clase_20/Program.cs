@@ -11,6 +11,7 @@ namespace Consola_Clase_20
 {
     public class Program
     {
+        #region Metodos estaticos reehechos en la clase generica XML
         static bool GuardarXML(string path, Alumno a)
         {
             bool resp = true;
@@ -27,9 +28,10 @@ namespace Consola_Clase_20
             }
             return resp;
         }
-        /*static bool LeerXML(string path, out Alumno a)
+        static bool LeerXML(string path, out Alumno a)
         {
             bool resp = true;
+            a = null;
             try
             {
                 XmlSerializer serializo = new XmlSerializer(typeof(Alumno));
@@ -39,13 +41,11 @@ namespace Consola_Clase_20
             }
             catch (Exception e)
             {
-                
-                return false;
+                resp = false;
             }
             return resp;
-        }*/
-
-
+        }
+        #endregion
 
         static void Main(string[] args)
         {
@@ -54,12 +54,21 @@ namespace Consola_Clase_20
             Aula aula = new Aula(4);
             aula.Lista.Add(a);
             aula.Lista.Add(p);
-            if (Program.GuardarXML("aula.xml", a))
+            XML<Profesor> xml = new XML<Profesor>();
+            if (xml.GuardarXML("aula.xml", p))
             {
-                Console.Write("OK");
+                Console.Write("OK\n");
             }
             else
                 Console.Write("NO BUENO");
+            Profesor buffer;
+            if (xml.LeerXML("aula.xml", out buffer))
+            {
+                Console.WriteLine(buffer);
+            }
+            else
+                Console.WriteLine("NO BUENO");
+
             Console.ReadLine();
         }
     }

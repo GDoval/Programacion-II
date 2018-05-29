@@ -1,1 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Nombre>Juan</Nombre><Apellido>Goldberg</Apellido><Dni>12345</Dni><legajo>1</legajo></Alumno>
+﻿<?xml version="1.0" encoding="utf-8"?><Profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Nombre>Pedro</Nombre><Apellido>Rohzkov</Apellido><Dni>898989</Dni><titulo>Geometristador</titulo></Profesor>
