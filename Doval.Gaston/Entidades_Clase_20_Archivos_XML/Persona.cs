@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Entidades_Clase_20_Archivos_XML
 {
-    public abstract class Persona
+    [Serializable][XmlInclude(typeof(Alumno))][XmlInclude(typeof(Profesor))]public abstract class Persona
     {
         protected string nombre;
         protected string apellido;

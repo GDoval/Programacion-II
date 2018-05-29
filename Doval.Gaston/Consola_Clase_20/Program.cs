@@ -54,23 +54,24 @@ namespace Consola_Clase_20
             Alumno c = new Alumno(3, "Jimena", "Glasnov", 101112123);
             Profesor p = new Profesor("Geometristador", "Pedro", "Rohzkov", 898989);
             Aula aula = new Aula(4);
-            List<Alumno> listaAlum = new List<Alumno>();
-            listaAlum.Add(a);
-            listaAlum.Add(b);
-            listaAlum.Add(c);
+            List<Persona> lista = new List<Persona>();
+            lista.Add(a);
+            lista.Add(b);
+            lista.Add(c);
+            lista.Add(p);
             aula.Lista.Add(a);
             aula.Lista.Add(p);
-            XML<List<Alumno>> xml = new XML<List<Alumno>>();
-            if (xml.GuardarXML("aula.xml", listaAlum))
+            XML<List<Persona>> xml = new XML<List<Persona>>();
+            if (xml.GuardarXML("aula.xml", lista))
             {
                 Console.Write("OK\n");
             }
             else
                 Console.Write("NO BUENO");
-            List<Alumno> buffer;
+            List<Persona> buffer;
             if (xml.LeerXML("aula.xml", out buffer))
             {
-                foreach (Alumno asss in buffer)
+                foreach (Persona asss in buffer)
                     Console.WriteLine(asss);
             }
             else
