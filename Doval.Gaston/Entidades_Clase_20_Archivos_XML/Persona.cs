@@ -12,6 +12,11 @@ namespace Entidades_Clase_20_Archivos_XML
         protected string apellido;
         protected int dni;
 
+
+        public string Nombre { get { return this.nombre; } set { this.nombre = value; } }
+        public string Apellido { get { return this.apellido; } set { this.apellido = value; } }
+        public int Dni { get { return this.dni; } set { this.dni = value; } }
+
         public Persona(string nombre, string apellido, int dni)
         {
             this.nombre = nombre;

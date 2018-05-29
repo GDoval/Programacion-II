@@ -9,7 +9,9 @@ namespace Entidades_Clase_20_Archivos_XML
     public class Alumno : Persona
     {
         public int legajo;
-
+        public Alumno()
+            :base("","",0)
+        { }
         public Alumno(int legajo, string nombre, string apellido, int dni)
             : base(nombre, apellido, dni)
         { this.legajo = legajo; }
