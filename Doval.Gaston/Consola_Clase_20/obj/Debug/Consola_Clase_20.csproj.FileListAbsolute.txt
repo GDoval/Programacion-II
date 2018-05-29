@@ -1,0 +1,8 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Clase_20\bin\Debug\Consola_Clase_20.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Clase_20\bin\Debug\Consola_Clase_20.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Clase_20\bin\Debug\Consola_Clase_20.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Clase_20\bin\Debug\Entidades_Clase_20_Archivos_XML.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Clase_20\bin\Debug\Entidades_Clase_20_Archivos_XML.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Clase_20\obj\Debug\Consola_Clase_20.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Clase_20\obj\Debug\Consola_Clase_20.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Clase_20\obj\Debug\Consola_Clase_20.pdb

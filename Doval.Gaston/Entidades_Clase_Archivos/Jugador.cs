@@ -94,7 +94,7 @@ namespace Entidades_Clase_Archivos
             XmlTextWriter xml = new XmlTextWriter("jugadores.xml", Encoding.UTF8);
             XmlSerializer serializa = new XmlSerializer(typeof(Jugador));
             serializa.Serialize(xml, this);// tiene que coincidir el objeto que se pasa como parametro al metodo Serialize con el tipo de objeto que se paso como parametro cuando se instancio el tipo XmlSerializer
-            xml.Close();
+            xml.Close(); //Siempre cerrar los manejadores de archivos para liberar la memoria
         }
 
         Jugador ISerializableXML.Deserializar()
@@ -102,7 +102,7 @@ namespace Entidades_Clase_Archivos
             XmlSerializer serializa = new XmlSerializer(typeof(Jugador));
             XmlTextReader leo = new XmlTextReader("jugadores.xml");
             Jugador j = (Jugador)serializa.Deserialize(leo);
-            leo.Close();
+            leo.Close(); //Siempre cerrar los manejadores de archivos
             return j;
         }
     }
