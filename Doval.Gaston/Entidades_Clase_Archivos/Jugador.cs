@@ -3,24 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace Entidades_Clase_Archivos
+using System.Xml; //trae la clase xmlTextWriter
+using System.Xml.Serialization; //agrega la clase XMLserializer para serializar archivos xml
+using System.Runtime.Serialization.Formatters.Binary; //agregar para serializar. Trae la clase BinaryFormatter
+using System.IO; // agregar para serializar. Trae la clase FileStream. Manipula archivos de cualqeuier tipo
+namespace Entidades_Clase_Archivos 
 {
     public enum EPuesto
     {
         Arquero, Defensa, Medio, Delantero
-    }
-    public class Jugador
+    }//se agrega [Serializable] para marcar que se puede erializar la clase
+    [Serializable]public class Jugador : ISerializableBinario, ISerializableXML
     {
         protected string _nombre;
-        protected string _apellido;
+        public string _apellido;
         protected EPuesto _puesto;
 
 
-        public string Nombre { get {return this._nombre;} }
+        public string Nombre { get { return this._nombre; } set { this._nombre = value; } }
         public string Apellido { get { return this._apellido; } }
         public EPuesto Puesto { get { return this._puesto; } }
 
+        public Jugador() { }
         public Jugador(string nombre, string apellido, EPuesto puesto)
         {
             this._puesto = puesto;
@@ -28,6 +32,8 @@ namespace Entidades_Clase_Archivos
             this._apellido = apellido;
         }
 
+
+        #region Métodos
         public override string ToString()
         {
             string resp = this.Nombre + "-" + this.Apellido + "-" + this.Puesto;
@@ -63,6 +69,41 @@ namespace Entidades_Clase_Archivos
                 resp = false;
             }
             return resp;
+        }
+        #endregion
+
+        void ISerializableBinario.Serializar()
+        {
+            BinaryFormatter binario = new BinaryFormatter();
+            FileStream manipular = new FileStream("jugadores.dat", FileMode.Create); // por convencion los archivos de datos son .dat
+            binario.Serialize(manipular, this); //Guarda el segundo parametro(un objeto cualquiera) en el archivo binario que se pasa como primer parametro
+            manipular.Close();
+        }
+
+        Jugador ISerializableBinario.Deserializar()
+        {
+            FileStream leer = new FileStream("jugadores.dat", FileMode.Open);
+            BinaryFormatter binario = new BinaryFormatter();
+            Jugador j = (Jugador)binario.Deserialize(leer);
+            leer.Close();
+            return j;
+        }
+
+        void ISerializableXML.Serializar()
+        {
+            XmlTextWriter xml = new XmlTextWriter("jugadores.xml", Encoding.UTF8);
+            XmlSerializer serializa = new XmlSerializer(typeof(Jugador));
+            serializa.Serialize(xml, this);// tiene que coincidir el objeto que se pasa como parametro al metodo Serialize con el tipo de objeto que se paso como parametro cuando se instancio el tipo XmlSerializer
+            xml.Close();
+        }
+
+        Jugador ISerializableXML.Deserializar()
+        {
+            XmlSerializer serializa = new XmlSerializer(typeof(Jugador));
+            XmlTextReader leo = new XmlTextReader("jugadores.xml");
+            Jugador j = (Jugador)serializa.Deserialize(leo);
+            leo.Close();
+            return j;
         }
     }
 }

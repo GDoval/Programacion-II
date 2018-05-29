@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdministradorDeArchivos.cs" />
+    <Compile Include="ISerializableBinario.cs" />
+    <Compile Include="ISerializableXML.cs" />
     <Compile Include="Jugador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

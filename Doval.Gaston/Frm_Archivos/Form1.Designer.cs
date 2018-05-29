@@ -37,6 +37,10 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.btnTraer = new System.Windows.Forms.Button();
+            this.btnBinario = new System.Windows.Forms.Button();
+            this.btnDese = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -112,11 +116,55 @@
             this.btnTraer.UseVisualStyleBackColor = true;
             this.btnTraer.Click += new System.EventHandler(this.btnTraer_Click);
             // 
+            // btnBinario
+            // 
+            this.btnBinario.Location = new System.Drawing.Point(308, 233);
+            this.btnBinario.Name = "btnBinario";
+            this.btnBinario.Size = new System.Drawing.Size(64, 41);
+            this.btnBinario.TabIndex = 9;
+            this.btnBinario.Text = "Ser. Binario";
+            this.btnBinario.UseVisualStyleBackColor = true;
+            this.btnBinario.Click += new System.EventHandler(this.btnBinario_Click);
+            // 
+            // btnDese
+            // 
+            this.btnDese.Location = new System.Drawing.Point(301, 155);
+            this.btnDese.Name = "btnDese";
+            this.btnDese.Size = new System.Drawing.Size(70, 47);
+            this.btnDese.TabIndex = 10;
+            this.btnDese.Text = "Deserializar";
+            this.btnDese.UseVisualStyleBackColor = true;
+            this.btnDese.Click += new System.EventHandler(this.btnDese_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(295, 72);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 47);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Ser. XML";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(12, 131);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(65, 63);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Des. XML";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(406, 297);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnDese);
+            this.Controls.Add(this.btnBinario);
             this.Controls.Add(this.btnTraer);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.cboPuesto);
@@ -143,6 +191,10 @@
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Button btnTraer;
+        private System.Windows.Forms.Button btnBinario;
+        private System.Windows.Forms.Button btnDese;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

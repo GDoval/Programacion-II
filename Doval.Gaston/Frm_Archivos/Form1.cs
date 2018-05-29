@@ -91,5 +91,31 @@ namespace Frm_Archivos
             else
                 MessageBox.Show("Nope!");*/
         }
+
+        private void btnBinario_Click(object sender, EventArgs e)
+        {
+            Jugador jug = new Jugador("Manu", "James", EPuesto.Arquero);
+            ((ISerializableBinario)jug).Serializar();
+        }
+
+        private void btnDese_Click(object sender, EventArgs e)
+        {
+            Jugador j = new Jugador("","", EPuesto.Arquero);
+            Jugador jugador = ((ISerializableBinario)j).Deserializar();
+            MessageBox.Show(jugador.ToString());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Jugador jug = new Jugador("Maasdadnu", "Jadadsadmes", EPuesto.Arquero);
+            ((ISerializableXML)jug).Serializar();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Jugador j = new Jugador("", "", EPuesto.Arquero);
+            Jugador jugador = ((ISerializableXML)j).Deserializar();
+            MessageBox.Show(jugador.ToString());
+        }
     }
 }
