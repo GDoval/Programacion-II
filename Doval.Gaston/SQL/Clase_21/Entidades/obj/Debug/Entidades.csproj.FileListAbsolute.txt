@@ -1,0 +1,12 @@
+D:\VisualStudio\Clase_21\Entidades\bin\Debug\Entidades.dll.config
+D:\VisualStudio\Clase_21\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio\Clase_21\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio\Clase_21\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Clase_21\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio\Clase_21\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\SQL\Clase_21\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\alumno\Desktop\SQL\Clase_21\Entidades\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\SQL\Clase_21\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\SQL\Clase_21\Entidades\obj\Debug\Entidades.dll
+C:\Users\alumno\Desktop\SQL\Clase_21\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\SQL\Clase_21\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache

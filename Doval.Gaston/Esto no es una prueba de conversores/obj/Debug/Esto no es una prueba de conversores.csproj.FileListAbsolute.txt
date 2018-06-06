@@ -7,7 +7,6 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Esto no es una prueba de
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Esto no es una prueba de conversores\bin\Debug\Esto no es una prueba de conversores.exe.config
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Esto no es una prueba de conversores\bin\Debug\Esto no es una prueba de conversores.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Esto no es una prueba de conversores\bin\Debug\Esto no es una prueba de conversores.pdb
-C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Esto no es una prueba de conversores\obj\Debug\Esto no es una prueba de conversores.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Esto no es una prueba de conversores\obj\Debug\Esto no es una prueba de conversores.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Esto no es una prueba de conversores\obj\Debug\Esto no es una prueba de conversores.pdb
 C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Esto no es una prueba de conversores\bin\Debug\Esto no es una prueba de conversores.exe.config

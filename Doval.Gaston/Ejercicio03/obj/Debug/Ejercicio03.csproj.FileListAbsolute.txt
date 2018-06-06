@@ -7,7 +7,6 @@ C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Ejercicio03\obj\Debug\Ej
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio03\bin\Debug\Ejercicio03.exe.config
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio03\bin\Debug\Ejercicio03.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio03\bin\Debug\Ejercicio03.pdb
-C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio03\obj\Debug\Ejercicio03.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio03\obj\Debug\Ejercicio03.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Ejercicio03\obj\Debug\Ejercicio03.pdb
 C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Ejercicio03\bin\Debug\Ejercicio03.exe.config

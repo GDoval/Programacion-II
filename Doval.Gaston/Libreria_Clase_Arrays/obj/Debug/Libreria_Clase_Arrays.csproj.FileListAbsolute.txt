@@ -1,6 +1,5 @@
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\bin\Debug\Libreria_Clase_Arrays.dll
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\bin\Debug\Libreria_Clase_Arrays.pdb
-C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\obj\Debug\Libreria_Clase_Arrays.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\obj\Debug\Libreria_Clase_Arrays.dll
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\obj\Debug\Libreria_Clase_Arrays.pdb
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Libreria_Clase_Arrays\bin\Debug\Libreria_Clase_Arrays.dll

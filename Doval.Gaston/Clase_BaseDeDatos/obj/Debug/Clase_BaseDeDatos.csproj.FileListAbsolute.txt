@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_BaseDeDatos\bin\Debug\Clase_BaseDeDatos.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_BaseDeDatos\bin\Debug\Clase_BaseDeDatos.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_BaseDeDatos\bin\Debug\Clase_BaseDeDatos.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_BaseDeDatos\obj\Debug\Clase_BaseDeDatos.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_BaseDeDatos\obj\Debug\Clase_BaseDeDatos.pdb

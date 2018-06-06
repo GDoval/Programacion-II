@@ -2,7 +2,6 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\bin\Debug\Cl
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\bin\Debug\Clase_Herencia.pdb
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\obj\Debug\Clase_Herencia.dll
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\obj\Debug\Clase_Herencia.pdb
-C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\obj\Debug\Clase_Herencia.csprojResolveAssemblyReference.cache
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\bin\Debug\Clase_Herencia.dll
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\bin\Debug\Clase_Herencia.pdb
 C:\Users\jsarasola\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\obj\Debug\Clase_Herencia.csprojResolveAssemblyReference.cache

@@ -2,7 +2,6 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\EntidadSello\bin\Debug\Enti
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\EntidadSello\bin\Debug\EntidadSello.pdb
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.dll
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.pdb
-C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.csprojResolveAssemblyReference.cache
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\EntidadSello\bin\Debug\EntidadSello.dll
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\EntidadSello\bin\Debug\EntidadSello.pdb
 C:\Users\Gaston\Documents\CosasGit\Programacion-II\Doval.Gaston\EntidadSello\obj\Debug\EntidadSello.csprojResolveAssemblyReference.cache
