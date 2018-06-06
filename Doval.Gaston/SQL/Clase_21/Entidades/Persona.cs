@@ -109,11 +109,73 @@ namespace Entidades
                 comando.ExecuteNonQuery();
                 sqlPadron.Close();
             }
-             catch
+            catch
             {
-                 resp = false;  
+                resp = false;
             }
             return resp;
+        }
+        
+
+            public bool Modificar()
+            {
+                bool resp = true;
+                try
+                {
+                    SqlConnection sqlPadron = new SqlConnection(Properties.Settings.Default.Conexion);
+                    sqlPadron.Open();
+                    SqlCommand comando = new SqlCommand("UPDATE Personas SET Nombre = '" + this.Nombre + "', Apellido = '" + this.Apellido + "', Edad =" + this.Edad + " WHERE id = " + this.Id, sqlPadron);
+                    comando.ExecuteNonQuery();
+                    sqlPadron.Close();
+                }
+                catch
+                {
+                    resp = false;
+                }
+                return resp;
+            }
+
+        public static Persona TraerTodos(int id)
+        {
+            Persona per = null;
+            try
+            {
+                SqlConnection sqlPadron = new SqlConnection(Properties.Settings.Default.Conexion);
+                sqlPadron.Open();
+                SqlCommand comando = new SqlCommand("SELECT * FROM Personas WHERE id = " + id, sqlPadron);
+                SqlDataReader reader = comando.ExecuteReader();
+                reader.Read(); // devuelve true or false, va leyendo cada uno de los campos y los "pone en memoria" (ponele, buscar despues)
+                per = new Persona(reader[1].ToString(), reader[2].ToString(), (int)reader[3], id);
+                sqlPadron.Close();
+                reader.Close();
+            }
+            catch(Exception e)
+            {
+                
+            }
+            return per;
+        }
+
+        public static DataTable TraerTodosTabla()
+        {
+            DataTable tabla = new DataTable("Personas");
+            try
+            {
+                //Esto se crea desde DEBUG, ultima opcion, Settings, nombre de la conexion (en este caso Conexion), Connection String
+                //Poner e nombre de la base de datos, elegir la tabla, testear la conexion, poner ok, guardar con Crtl + S
+                SqlConnection sqlPadron = new SqlConnection(Properties.Settings.Default.Conexion);
+                sqlPadron.Open();
+                SqlCommand comando = new SqlCommand("SELECT [id],[nombre],[apellido],[edad] FROM [padron].[dbo].[personas]", sqlPadron);
+                SqlDataReader reader = comando.ExecuteReader(); //devuelve un objeto
+                tabla.Load(reader); // carga la tabla en memoria, haciendo un debug se puede ver la tabla en forma grafica
+                reader.Close();
+                sqlPadron.Close();
+            }
+            catch
+            {
+                Console.WriteLine("error");
+            }
+            return tabla;
         }
         
     }
