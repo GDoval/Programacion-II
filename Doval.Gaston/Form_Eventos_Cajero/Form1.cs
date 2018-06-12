@@ -57,7 +57,7 @@ namespace Form_Eventos_Cajero
 
         private void Informar(object sender, EventArgs e)
         {
-            MessageBox.Show("Debe limpiar la pantalla para seguir operando");
+            MessageBox.Show("Debe limpiar la pantalla para seguir operando","ALERTAAAAAAAAAAAA", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
 
         private void Calcular(object sender, EventArgs e)
