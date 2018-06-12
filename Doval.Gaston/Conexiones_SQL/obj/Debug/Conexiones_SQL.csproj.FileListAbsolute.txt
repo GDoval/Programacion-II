@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Conexiones_SQL\bin\Debug\Conexiones_SQL.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Conexiones_SQL\bin\Debug\Conexiones_SQL.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Conexiones_SQL\bin\Debug\Conexiones_SQL.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Conexiones_SQL\obj\Debug\Conexiones_SQL.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Conexiones_SQL\obj\Debug\Conexiones_SQL.pdb

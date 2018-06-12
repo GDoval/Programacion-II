@@ -12,3 +12,4 @@ C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\bin\Debug\Cl
 C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\obj\Debug\Clase_Herencia.csprojResolveAssemblyReference.cache
 C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\obj\Debug\Clase_Herencia.dll
 C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\obj\Debug\Clase_Herencia.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_Herencia\obj\Debug\Clase_Herencia.csprojResolveAssemblyReference.cache
