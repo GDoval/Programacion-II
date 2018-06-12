@@ -41,18 +41,18 @@ namespace Form_Eventos_Cajero
             this.btnAceptar.Click += new EventHandler(Informar);
         }
 
-        private void Limpiar(object sender, EventArgs e)
+        private void Limpiar(object sender, EventArgs e) //ver como hacer esto con un foreach usando Control y this.Controls
         {
             this.btnLimpiar.Click -= new EventHandler(Limpiar);
             this.btnAceptar.Click -= new EventHandler(Calcular);
             this.btnAceptar.Click -= new EventHandler(Informar);
             this.btnAceptar.Click += new EventHandler(Calcular);
-            this.txtBillete10.Text = Convert.ToString(0);
-            this.txtBilleteDos.Text = Convert.ToString(0);
-            this.txtBillete5.Text = Convert.ToString(0);
-            this.txtBillete20.Text = Convert.ToString(0);
-            this.txtBillete50.Text = Convert.ToString(0);
-            this.txtBillete100.Text = Convert.ToString(0);
+            this.txtBillete10.Clear();
+            this.txtBilleteDos.Clear();
+            this.txtBillete5.Clear();
+            this.txtBillete20.Clear();
+            this.txtBillete50.Clear();
+            this.txtBillete100.Clear();
         }
 
         private void Informar(object sender, EventArgs e)
