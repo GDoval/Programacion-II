@@ -25,8 +25,6 @@ namespace Frm_Eventos
         {
             int sueldo = int.Parse(this.txtSueldo.Text);
             Empleado emp = new Empleado( this.txtNombre.Text, this.txtApellido.Text, int.Parse(this.txtDni.Text));
-            emp.SueldoCero += new DelegadoSueldoCero(emp.ManejadorEvento); 
-            emp.SueldoMaximo += new DelegadoLimiteSueldo(emp.SueldoAlto);
             emp.SueldoMaximoMejorado += new DelegadoLimiteSueldoMejorado(SueldoAltoMejorado);
             try
             {
