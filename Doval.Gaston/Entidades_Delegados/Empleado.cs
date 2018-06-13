@@ -38,7 +38,7 @@ namespace Entidades_Delegados
                 if (value < 0)
                     throw new ExcepcionSueldoNegativo("El sueldo no puede ser menor que cero");
                 else if (value == 0)
-                    this.SueldoCero(); //se llama al evento en caso de que sea 0 el sueldo
+                    this.SueldoCero(); //se llama al evento en caso de que sea 0 el sueldo  
                 else if (value > 20000  && value < 30000)
                 {
                     EmpleadoEventArgs info = new EmpleadoEventArgs();

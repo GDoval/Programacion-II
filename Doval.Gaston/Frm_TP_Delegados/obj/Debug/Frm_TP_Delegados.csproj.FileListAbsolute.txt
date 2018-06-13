@@ -6,3 +6,14 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.csproj.GenerateResource.Cache
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.exe
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\bin\Debug\Frm_TP_Delegados.exe.config
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.frmPrincipal.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.frmDatos.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.frmTest.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.Properties.Resources.resources
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\obj\Debug\Frm_TP_Delegados.csproj.GenerateResource.Cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\bin\Debug\Frm_TP_Delegados.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Frm_TP_Delegados\bin\Debug\Frm_TP_Delegados.pdb

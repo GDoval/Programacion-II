@@ -18,6 +18,11 @@ namespace Frm_Eventos
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Manejador de Eventos (EventHandler). Es el método que se le pasa al Delegado para que después ejecute.
+        /// </summary>
+        /// <param name="empleado"></param>
+        /// <param name="e"></param>
         public void SueldoAltoMejorado(Empleado empleado, EmpleadoEventArgs e)
         { MessageBox.Show("Sueldo muy alto para:\n" + empleado.ToString() + "\nQuiere ganar: " + e.Sueldo); }
 
@@ -25,6 +30,8 @@ namespace Frm_Eventos
         {
             int sueldo = int.Parse(this.txtSueldo.Text);
             Empleado emp = new Empleado( this.txtNombre.Text, this.txtApellido.Text, int.Parse(this.txtDni.Text));
+
+            //El Evento que se declara dentro de la clase Empleado, aca se lo incicializa pasandole el Método SueldoAltoMejorado como parametro al Delegado
             emp.SueldoMaximoMejorado += new DelegadoLimiteSueldoMejorado(SueldoAltoMejorado);
             try
             {

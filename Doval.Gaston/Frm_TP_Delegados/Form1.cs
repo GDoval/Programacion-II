@@ -10,29 +10,37 @@ using System.Windows.Forms;
 
 namespace Frm_TP_Delegados
 {
+
+    
+
     public partial class frmPrincipal : Form
     {
-        //Definir delegado aca o en el namespace
-        //Se le asigna el manejador cuando se hace click en los menu de frmPrincipal, y se instancia la clase de frmDatos o Test. Xq el metodo que se pasa como parametro
-        // a ese delegado se tiene que hacer dentro de la clase frmDatos, por lo que hay que instanciar esa clase para tener la direccion de memoria del metodo
+        public delegate void DelCambiarNombre(string nombre);
 
-        //El delegado se invoca al hacer click en aceptar en el frmTest
+        public frmTest test;
+        public frmDatos datos;
+
+        public frmTest Test { get { return this.test; } set { this.test = value;} }
+
+        public frmDatos Datos { get { return this.datos; } set { this.datos = value;} }
+
         public frmPrincipal()
         {
             InitializeComponent();
-            frmDatos dat = new frmDatos();
-
         }
 
         private void testAlToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTest test = new frmTest();
-            test.Show();
+            this.Test = new frmTest() { Owner = this };
+            this.test.Show();
         }
 
         private void datosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmDatos datos = new frmDatos();
+            this.Datos = new frmDatos() { Owner = this };
+
+            //Se le asigna el manejador al Delegado y se lo asocia al Evento.
+            this.test.EventoCambiarNombre += new DelCambiarNombre(datos.CambiarNombre);
             datos.Show();
         }
 
