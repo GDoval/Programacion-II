@@ -26,7 +26,14 @@ namespace Frm_TP_Delegados
 
         private void testAlToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            frmTest test = new frmTest();
+            test.Show();
+        }
 
+        private void datosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDatos datos = new frmDatos();
+            datos.Show();
         }
 
 
