@@ -1,0 +1,4 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Delegados\bin\Debug\Entidades_Delegados.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Delegados\bin\Debug\Entidades_Delegados.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Delegados\obj\Debug\Entidades_Delegados.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Entidades_Delegados\obj\Debug\Entidades_Delegados.pdb

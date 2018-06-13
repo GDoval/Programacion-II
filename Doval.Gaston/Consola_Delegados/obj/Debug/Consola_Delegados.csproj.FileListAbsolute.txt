@@ -1,0 +1,8 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Delegados\bin\Debug\Consola_Delegados.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Delegados\bin\Debug\Consola_Delegados.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Delegados\bin\Debug\Consola_Delegados.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Delegados\bin\Debug\Entidades_Delegados.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Delegados\bin\Debug\Entidades_Delegados.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Delegados\obj\Debug\Consola_Delegados.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Delegados\obj\Debug\Consola_Delegados.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Consola_Delegados\obj\Debug\Consola_Delegados.pdb

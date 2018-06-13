@@ -1,0 +1,11 @@
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\bin\Debug\Frm_Eventos.exe.config
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\bin\Debug\Frm_Eventos.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\bin\Debug\Frm_Eventos.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\bin\Debug\Entidades_Delegados.dll
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\bin\Debug\Entidades_Delegados.pdb
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\obj\Debug\Frm_Eventos.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\obj\Debug\Frm_Eventos.Form1.resources
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\obj\Debug\Frm_Eventos.Properties.Resources.resources
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\obj\Debug\Frm_Eventos.csproj.GenerateResource.Cache
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\obj\Debug\Frm_Eventos.exe
+C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Frm_Eventos\obj\Debug\Frm_Eventos.pdb
