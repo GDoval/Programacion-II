@@ -6,3 +6,9 @@ C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_Extensiones\obj\Debug
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_Extensiones\obj\Debug\Clase_Extensiones.pdb
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_Extensiones\bin\Debug\Entidades.Externa.dll
 C:\Users\alumno\Desktop\Programacion-II\Doval.Gaston\Clase_Extensiones\bin\Debug\Entidades.Externa.Sellada.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_Extensiones\bin\Debug\Clase_Extensiones.exe.config
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_Extensiones\obj\Debug\Clase_Extensiones.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_Extensiones\obj\Debug\Clase_Extensiones.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_Extensiones\bin\Debug\Clase_Extensiones.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_Extensiones\bin\Debug\Clase_Extensiones.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Clase_Extensiones\obj\Debug\Clase_Extensiones.csprojResolveAssemblyReference.cache

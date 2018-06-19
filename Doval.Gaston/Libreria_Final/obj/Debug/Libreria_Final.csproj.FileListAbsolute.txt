@@ -1,0 +1,5 @@
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Libreria_Final\bin\Debug\Libreria_Final.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Libreria_Final\bin\Debug\Libreria_Final.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Libreria_Final\obj\Debug\Libreria_Final.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Libreria_Final\obj\Debug\Libreria_Final.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\Libreria_Final\obj\Debug\Libreria_Final.pdb

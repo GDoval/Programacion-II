@@ -1,0 +1,8 @@
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\IntegrandoTodo\bin\Debug\IntegrandoTodo.exe.config
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\IntegrandoTodo\bin\Debug\IntegrandoTodo.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\IntegrandoTodo\bin\Debug\IntegrandoTodo.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\IntegrandoTodo\bin\Debug\Libreria_Final.dll
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\IntegrandoTodo\bin\Debug\Libreria_Final.pdb
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\IntegrandoTodo\obj\Debug\IntegrandoTodo.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\IntegrandoTodo\obj\Debug\IntegrandoTodo.exe
+C:\Users\gdoval\Desktop\Programacion-II\Doval.Gaston\IntegrandoTodo\obj\Debug\IntegrandoTodo.pdb
