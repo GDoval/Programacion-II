@@ -1,0 +1,10 @@
+Nombre: Gaston
+Apellido: Doval
+Edad: 30
+----------------------
+
+Nombre: Fleur
+Apellido: Galetto
+Edad: 22
+----------------------
+

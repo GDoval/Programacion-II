@@ -1,0 +1,8 @@
+C:\Users\Gaston\Desktop\Pruebas_Random\Pruebas_Random\bin\Debug\Pruebas_Random.exe.config
+C:\Users\Gaston\Desktop\Pruebas_Random\Pruebas_Random\bin\Debug\Pruebas_Random.exe
+C:\Users\Gaston\Desktop\Pruebas_Random\Pruebas_Random\bin\Debug\Pruebas_Random.pdb
+C:\Users\Gaston\Desktop\Pruebas_Random\Pruebas_Random\obj\Debug\Pruebas_Random.csprojResolveAssemblyReference.cache
+C:\Users\Gaston\Desktop\Pruebas_Random\Pruebas_Random\obj\Debug\Pruebas_Random.exe
+C:\Users\Gaston\Desktop\Pruebas_Random\Pruebas_Random\obj\Debug\Pruebas_Random.pdb
+C:\Users\Gaston\Desktop\Pruebas_Random\Pruebas_Random\bin\Debug\Entidades.dll
+C:\Users\Gaston\Desktop\Pruebas_Random\Pruebas_Random\bin\Debug\Entidades.pdb
