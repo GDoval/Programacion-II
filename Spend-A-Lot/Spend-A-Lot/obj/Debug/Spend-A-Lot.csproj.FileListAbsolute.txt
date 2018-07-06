@@ -1,0 +1,12 @@
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\bin\Debug\Spend-A-Lot.exe.config
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\bin\Debug\Spend-A-Lot.exe
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\bin\Debug\Spend-A-Lot.pdb
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\bin\Debug\Entidades.dll
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\bin\Debug\Entidades.pdb
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\obj\Debug\Spend-A-Lot.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\obj\Debug\Spend_A_Lot.Properties.Resources.resources
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\obj\Debug\Spend-A-Lot.csproj.GenerateResource.Cache
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\obj\Debug\Spend-A-Lot.exe
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\obj\Debug\Spend-A-Lot.pdb
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\obj\Debug\Spend_A_Lot.frmPrincipal.resources
+C:\Users\gdoval\Desktop\Spend-A-Lot\Spend-A-Lot\obj\Debug\Spend_A_Lot.CargarGastos.resources

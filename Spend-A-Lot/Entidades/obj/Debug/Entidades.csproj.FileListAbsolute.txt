@@ -1,0 +1,5 @@
+C:\Users\gdoval\Desktop\Spend-A-Lot\Entidades\bin\Debug\Entidades.dll
+C:\Users\gdoval\Desktop\Spend-A-Lot\Entidades\bin\Debug\Entidades.pdb
+C:\Users\gdoval\Desktop\Spend-A-Lot\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\gdoval\Desktop\Spend-A-Lot\Entidades\obj\Debug\Entidades.dll
+C:\Users\gdoval\Desktop\Spend-A-Lot\Entidades\obj\Debug\Entidades.pdb
